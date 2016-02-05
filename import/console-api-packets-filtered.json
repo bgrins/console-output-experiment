@@ -1,0 +1,2629 @@
+[
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "foo"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "time",
+        "lineNumber": 192,
+        "private": false,
+        "timeStamp": 1454701363923,
+        "timer": {
+          "name": "foo",
+          "started": 481304.945
+        },
+        "workerType": "none",
+        "styles": [],
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"foo\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"time\",\"lineNumber\":192,\"private\":false,\"timeStamp\":1454701363923,\"timer\":{\"name\":\"foo\",\"started\":481304.945},\"workerType\":\"none\",\"styles\":[],\"category\":\"webdev\"}}",
+    "size": 399,
+    "time": "2016-02-05T19:42:43.968Z",
+    "id": 266
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "foo ",
+          " zuzu ",
+          " bla bla"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 194,
+        "private": false,
+        "styles": [
+          {
+            "type": "null"
+          },
+          "color:red;background:cyan",
+          "color: blue"
+        ],
+        "timeStamp": 1454701363926,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"foo \",\" zuzu \",\" bla bla\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":194,\"private\":false,\"styles\":[{\"type\":\"null\"},\"color:red;background:cyan\",\"color: blue\"],\"timeStamp\":1454701363926,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 445,
+    "time": "2016-02-05T19:42:44.044Z",
+    "id": 267
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "foo ",
+          " zuzu ",
+          " bla bla"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 195,
+        "private": false,
+        "styles": [
+          "color:pink",
+          "color:red;font-size:1.3em",
+          "color: blue"
+        ],
+        "timeStamp": 1454701363927,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"foo \",\" zuzu \",\" bla bla\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":195,\"private\":false,\"styles\":[\"color:pink\",\"color:red;font-size:1.3em\",\"color: blue\"],\"timeStamp\":1454701363927,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 442,
+    "time": "2016-02-05T19:42:44.090Z",
+    "id": 268
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "background image"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 196,
+        "private": false,
+        "styles": [
+          "color:green;font-weight:bold;background:blue url('data:image/gif;base64,R0lGODlhAQABAPAAAP8AAP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==')"
+        ],
+        "timeStamp": 1454701363928,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"background image\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":196,\"private\":false,\"styles\":[\"color:green;font-weight:bold;background:blue url('data:image/gif;base64,R0lGODlhAQABAPAAAP8AAP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==')\"],\"timeStamp\":1454701363928,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 516,
+    "time": "2016-02-05T19:42:44.128Z",
+    "id": 269
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "foo",
+          "bar",
+          "boom"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 197,
+        "private": false,
+        "styles": [
+          {
+            "type": "null"
+          },
+          "color:blue",
+          "color:green"
+        ],
+        "timeStamp": 1454701363929,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"foo\",\"bar\",\"boom\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":197,\"private\":false,\"styles\":[{\"type\":\"null\"},\"color:blue\",\"color:green\"],\"timeStamp\":1454701363929,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 422,
+    "time": "2016-02-05T19:42:44.169Z",
+    "id": 270
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "foo test zoom",
+          "bar -1292549414 lolz",
+          "boom",
+          {
+            "type": "object",
+            "class": "Window",
+            "actor": "server1.conn2.obj237",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 781,
+            "preview": {
+              "kind": "ObjectWithURL",
+              "url": "http://bgrins.github.io/devtools-demos/console/all.html"
+            }
+          },
+          "omg",
+          "red"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 198,
+        "private": false,
+        "styles": [
+          {
+            "type": "null"
+          },
+          "color:blue",
+          "color:green;font-weight:bold",
+          {
+            "type": "null"
+          },
+          {
+            "type": "null"
+          },
+          "color:red;font-size:2em"
+        ],
+        "timeStamp": 1454701363930,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"foo test zoom\",\"bar -1292549414 lolz\",\"boom\",{\"type\":\"object\",\"class\":\"Window\",\"actor\":\"server1.conn2.obj237\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":781,\"preview\":{\"kind\":\"ObjectWithURL\",\"url\":\"http://bgrins.github.io/devtools-demos/console/all.html\"}},\"omg\",\"red\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":198,\"private\":false,\"styles\":[{\"type\":\"null\"},\"color:blue\",\"color:green;font-weight:bold\",{\"type\":\"null\"},{\"type\":\"null\"},\"color:red;font-size:2em\"],\"timeStamp\":1454701363930,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 773,
+    "time": "2016-02-05T19:42:44.229Z",
+    "id": 271
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "bad boy"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 199,
+        "private": false,
+        "styles": [
+          "font:1.4em arial; padding:6px; position:absolute; top:0; left:0; background:cyan; width:10em; height: 0; overflow: hidden; text-decoration:underline; display: inline-block"
+        ],
+        "timeStamp": 1454701363932,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"bad boy\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":199,\"private\":false,\"styles\":[\"font:1.4em arial; padding:6px; position:absolute; top:0; left:0; background:cyan; width:10em; height: 0; overflow: hidden; text-decoration:underline; display: inline-block\"],\"timeStamp\":1454701363932,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 544,
+    "time": "2016-02-05T19:42:44.273Z",
+    "id": 272
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "foobar",
+          "bazbaz",
+          {
+            "type": "object",
+            "class": "Window",
+            "actor": "server1.conn2.obj238",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 781,
+            "preview": {
+              "kind": "ObjectWithURL",
+              "url": "http://bgrins.github.io/devtools-demos/console/all.html"
+            }
+          },
+          "%comg",
+          "color:blue"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "info",
+        "lineNumber": 200,
+        "private": false,
+        "styles": [
+          {
+            "type": "null"
+          },
+          "color:green"
+        ],
+        "timeStamp": 1454701363932,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"foobar\",\"bazbaz\",{\"type\":\"object\",\"class\":\"Window\",\"actor\":\"server1.conn2.obj238\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":781,\"preview\":{\"kind\":\"ObjectWithURL\",\"url\":\"http://bgrins.github.io/devtools-demos/console/all.html\"}},\"%comg\",\"color:blue\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"info\",\"lineNumber\":200,\"private\":false,\"styles\":[{\"type\":\"null\"},\"color:green\"],\"timeStamp\":1454701363932,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 667,
+    "time": "2016-02-05T19:42:44.309Z",
+    "id": 273
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          {
+            "type": "object",
+            "class": "Object",
+            "actor": "server1.conn2.obj239",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 3,
+            "preview": {
+              "kind": "Object",
+              "ownProperties": {
+                "testProp": {
+                  "configurable": true,
+                  "enumerable": true,
+                  "writable": true,
+                  "value": "testValue"
+                },
+                "hello": {
+                  "configurable": true,
+                  "enumerable": true,
+                  "writable": true,
+                  "value": 1
+                },
+                "world": {
+                  "configurable": true,
+                  "enumerable": true,
+                  "writable": true,
+                  "value": true
+                }
+              },
+              "ownPropertiesLength": 3,
+              "safeGetterValues": {}
+            }
+          }
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "dir",
+        "lineNumber": 207,
+        "private": false,
+        "timeStamp": 1454701363934,
+        "timer": null,
+        "workerType": "none",
+        "styles": [],
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[{\"type\":\"object\",\"class\":\"Object\",\"actor\":\"server1.conn2.obj239\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":3,\"preview\":{\"kind\":\"Object\",\"ownProperties\":{\"testProp\":{\"configurable\":true,\"enumerable\":true,\"writable\":true,\"value\":\"testValue\"},\"hello\":{\"configurable\":true,\"enumerable\":true,\"writable\":true,\"value\":1},\"world\":{\"configurable\":true,\"enumerable\":true,\"writable\":true,\"value\":true}},\"ownPropertiesLength\":3,\"safeGetterValues\":{}}}],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"dir\",\"lineNumber\":207,\"private\":false,\"timeStamp\":1454701363934,\"timer\":null,\"workerType\":\"none\",\"styles\":[],\"category\":\"webdev\"}}",
+    "size": 827,
+    "time": "2016-02-05T19:42:44.352Z",
+    "id": 274
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "foocount"
+        ],
+        "columnNumber": 11,
+        "counter": {
+          "count": 10,
+          "label": "foocount"
+        },
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "count",
+        "lineNumber": 208,
+        "private": false,
+        "timeStamp": 1454701363936,
+        "timer": null,
+        "workerType": "none",
+        "styles": [],
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"foocount\"],\"columnNumber\":11,\"counter\":{\"count\":10,\"label\":\"foocount\"},\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"count\",\"lineNumber\":208,\"private\":false,\"timeStamp\":1454701363936,\"timer\":null,\"workerType\":\"none\",\"styles\":[],\"category\":\"webdev\"}}",
+    "size": 401,
+    "time": "2016-02-05T19:42:44.390Z",
+    "id": 275
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "tezt",
+          {
+            "type": "object",
+            "class": "Object",
+            "actor": "server1.conn2.obj240",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 3,
+            "preview": {
+              "kind": "Object",
+              "ownProperties": {
+                "testProp": {
+                  "configurable": true,
+                  "enumerable": true,
+                  "writable": true,
+                  "value": "testValue"
+                },
+                "hello": {
+                  "configurable": true,
+                  "enumerable": true,
+                  "writable": true,
+                  "value": 1
+                },
+                "world": {
+                  "configurable": true,
+                  "enumerable": true,
+                  "writable": true,
+                  "value": true
+                }
+              },
+              "ownPropertiesLength": 3,
+              "safeGetterValues": {}
+            }
+          }
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 209,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363936,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"tezt\",{\"type\":\"object\",\"class\":\"Object\",\"actor\":\"server1.conn2.obj240\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":3,\"preview\":{\"kind\":\"Object\",\"ownProperties\":{\"testProp\":{\"configurable\":true,\"enumerable\":true,\"writable\":true,\"value\":\"testValue\"},\"hello\":{\"configurable\":true,\"enumerable\":true,\"writable\":true,\"value\":1},\"world\":{\"configurable\":true,\"enumerable\":true,\"writable\":true,\"value\":true}},\"ownPropertiesLength\":3,\"safeGetterValues\":{}}}],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":209,\"private\":false,\"styles\":[],\"timeStamp\":1454701363936,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 834,
+    "time": "2016-02-05T19:42:44.432Z",
+    "id": 276
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "foo repeat"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "myEventHandler",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 251,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363938,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"foo repeat\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":251,\"private\":false,\"styles\":[],\"timeStamp\":1454701363938,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 388,
+    "time": "2016-02-05T19:42:44.474Z",
+    "id": 277
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "foo repeat"
+        ],
+        "columnNumber": 37,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "myEventHandler",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 251,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363938,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"foo repeat\"],\"columnNumber\":37,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":251,\"private\":false,\"styles\":[],\"timeStamp\":1454701363938,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 388,
+    "time": "2016-02-05T19:42:44.509Z",
+    "id": 278
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "foo repeat"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "myEventHandler",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 252,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363939,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"foo repeat\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":252,\"private\":false,\"styles\":[],\"timeStamp\":1454701363939,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 388,
+    "time": "2016-02-05T19:42:44.542Z",
+    "id": 279
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "foo repeat"
+        ],
+        "columnNumber": 37,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "myEventHandler",
+        "groupName": "",
+        "level": "error",
+        "lineNumber": 252,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363939,
+        "timer": null,
+        "stacktrace": [
+          {
+            "columnNumber": 37,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "myEventHandler",
+            "language": 2,
+            "lineNumber": 252
+          },
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 211
+          },
+          {
+            "asyncCause": "EventListener.handleEvent",
+            "columnNumber": 9,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 190
+          },
+          {
+            "columnNumber": 8,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 138
+          }
+        ],
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"foo repeat\"],\"columnNumber\":37,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"groupName\":\"\",\"level\":\"error\",\"lineNumber\":252,\"private\":false,\"styles\":[],\"timeStamp\":1454701363939,\"timer\":null,\"stacktrace\":[{\"columnNumber\":37,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"language\":2,\"lineNumber\":252},{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":211},{\"asyncCause\":\"EventListener.handleEvent\",\"columnNumber\":9,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":190},{\"columnNumber\":8,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":138}],\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 1006,
+    "time": "2016-02-05T19:42:44.579Z",
+    "id": 280
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "log",
+          "click",
+          {
+            "type": "object",
+            "class": "MouseEvent",
+            "actor": "server1.conn2.obj241",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 1,
+            "preview": {
+              "kind": "DOMEvent",
+              "type": "click",
+              "properties": {
+                "buttons": 0,
+                "clientX": 167,
+                "clientY": 129,
+                "layerX": 167,
+                "layerY": 741
+              },
+              "target": {
+                "type": "object",
+                "class": "HTMLButtonElement",
+                "actor": "server1.conn2.obj242",
+                "extensible": true,
+                "frozen": false,
+                "sealed": false,
+                "ownPropertyLength": 0,
+                "preview": {
+                  "kind": "DOMNode",
+                  "nodeType": 1,
+                  "nodeName": "button",
+                  "attributes": {
+                    "id": "consoleAPI"
+                  },
+                  "attributesLength": 1
+                }
+              }
+            }
+          }
+        ],
+        "columnNumber": 24,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "myEventHandler",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 254,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363939,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"log\",\"click\",{\"type\":\"object\",\"class\":\"MouseEvent\",\"actor\":\"server1.conn2.obj241\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":1,\"preview\":{\"kind\":\"DOMEvent\",\"type\":\"click\",\"properties\":{\"buttons\":0,\"clientX\":167,\"clientY\":129,\"layerX\":167,\"layerY\":741},\"target\":{\"type\":\"object\",\"class\":\"HTMLButtonElement\",\"actor\":\"server1.conn2.obj242\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":0,\"preview\":{\"kind\":\"DOMNode\",\"nodeType\":1,\"nodeName\":\"button\",\"attributes\":{\"id\":\"consoleAPI\"},\"attributesLength\":1}}}}],\"columnNumber\":24,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":254,\"private\":false,\"styles\":[],\"timeStamp\":1454701363939,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 927,
+    "time": "2016-02-05T19:42:44.612Z",
+    "id": 281
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "console log result",
+          {
+            "type": "undefined"
+          }
+        ],
+        "columnNumber": 20,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "myEventHandler",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 256,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363942,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"console log result\",{\"type\":\"undefined\"}],\"columnNumber\":20,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":256,\"private\":false,\"styles\":[],\"timeStamp\":1454701363942,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 417,
+    "time": "2016-02-05T19:42:44.651Z",
+    "id": 282
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "console log result 2",
+          {
+            "type": "undefined"
+          }
+        ],
+        "columnNumber": 20,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "myEventHandler",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 267,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363942,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"console log result 2\",{\"type\":\"undefined\"}],\"columnNumber\":20,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":267,\"private\":false,\"styles\":[],\"timeStamp\":1454701363942,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 419,
+    "time": "2016-02-05T19:42:44.695Z",
+    "id": 283
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "console log result 3",
+          {
+            "type": "undefined"
+          }
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "myEventHandler",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 269,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363943,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"console log result 3\",{\"type\":\"undefined\"}],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":269,\"private\":false,\"styles\":[],\"timeStamp\":1454701363943,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 419,
+    "time": "2016-02-05T19:42:44.734Z",
+    "id": 284
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "info click"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "myEventHandler",
+        "groupName": "",
+        "level": "info",
+        "lineNumber": 271,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363943,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"info click\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"groupName\":\"\",\"level\":\"info\",\"lineNumber\":271,\"private\":false,\"styles\":[],\"timeStamp\":1454701363943,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 389,
+    "time": "2016-02-05T19:42:44.770Z",
+    "id": 285
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "error click"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "myEventHandler",
+        "groupName": "",
+        "level": "error",
+        "lineNumber": 272,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363944,
+        "timer": null,
+        "stacktrace": [
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "myEventHandler",
+            "language": 2,
+            "lineNumber": 272
+          },
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 211
+          },
+          {
+            "asyncCause": "EventListener.handleEvent",
+            "columnNumber": 9,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 190
+          },
+          {
+            "columnNumber": 8,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 138
+          }
+        ],
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"error click\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"groupName\":\"\",\"level\":\"error\",\"lineNumber\":272,\"private\":false,\"styles\":[],\"timeStamp\":1454701363944,\"timer\":null,\"stacktrace\":[{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"language\":2,\"lineNumber\":272},{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":211},{\"asyncCause\":\"EventListener.handleEvent\",\"columnNumber\":9,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":190},{\"columnNumber\":8,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":138}],\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 1007,
+    "time": "2016-02-05T19:42:44.807Z",
+    "id": 286
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "warn click"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "myEventHandler",
+        "groupName": "",
+        "level": "warn",
+        "lineNumber": 273,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363944,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"warn click\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"groupName\":\"\",\"level\":\"warn\",\"lineNumber\":273,\"private\":false,\"styles\":[],\"timeStamp\":1454701363944,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 389,
+    "time": "2016-02-05T19:42:44.851Z",
+    "id": 287
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "error omg aloha ",
+          {
+            "type": "object",
+            "class": "HTMLBodyElement",
+            "actor": "server1.conn2.obj243",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 0,
+            "preview": {
+              "kind": "DOMNode",
+              "nodeType": 1,
+              "nodeName": "body",
+              "attributes": {
+                "class": "header"
+              },
+              "attributesLength": 1
+            }
+          },
+          " 1141 378 3.141593 %a",
+          "zuzu",
+          {
+            "type": "null"
+          },
+          {
+            "type": "undefined"
+          }
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "myEventHandler",
+        "groupName": "",
+        "level": "error",
+        "lineNumber": 274,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363945,
+        "timer": null,
+        "stacktrace": [
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "myEventHandler",
+            "language": 2,
+            "lineNumber": 274
+          },
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 211
+          },
+          {
+            "asyncCause": "EventListener.handleEvent",
+            "columnNumber": 9,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 190
+          },
+          {
+            "columnNumber": 8,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 138
+          }
+        ],
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"error omg aloha \",{\"type\":\"object\",\"class\":\"HTMLBodyElement\",\"actor\":\"server1.conn2.obj243\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":0,\"preview\":{\"kind\":\"DOMNode\",\"nodeType\":1,\"nodeName\":\"body\",\"attributes\":{\"class\":\"header\"},\"attributesLength\":1}},\" 1141 378 3.141593 %a\",\"zuzu\",{\"type\":\"null\"},{\"type\":\"undefined\"}],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"groupName\":\"\",\"level\":\"error\",\"lineNumber\":274,\"private\":false,\"styles\":[],\"timeStamp\":1454701363945,\"timer\":null,\"stacktrace\":[{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"language\":2,\"lineNumber\":274},{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":211},{\"asyncCause\":\"EventListener.handleEvent\",\"columnNumber\":9,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":190},{\"columnNumber\":8,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":138}],\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 1338,
+    "time": "2016-02-05T19:42:44.890Z",
+    "id": 288
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "exception",
+          {
+            "type": "undefined"
+          }
+        ],
+        "columnNumber": 13,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "myEventHandler",
+        "groupName": "",
+        "level": "exception",
+        "lineNumber": 278,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363946,
+        "timer": null,
+        "stacktrace": [
+          {
+            "columnNumber": 13,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "myEventHandler",
+            "language": 2,
+            "lineNumber": 278
+          },
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 211
+          },
+          {
+            "asyncCause": "EventListener.handleEvent",
+            "columnNumber": 9,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 190
+          },
+          {
+            "columnNumber": 8,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 138
+          }
+        ],
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"exception\",{\"type\":\"undefined\"}],\"columnNumber\":13,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"groupName\":\"\",\"level\":\"exception\",\"lineNumber\":278,\"private\":false,\"styles\":[],\"timeStamp\":1454701363946,\"timer\":null,\"stacktrace\":[{\"columnNumber\":13,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"language\":2,\"lineNumber\":278},{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":211},{\"asyncCause\":\"EventListener.handleEvent\",\"columnNumber\":9,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":190},{\"columnNumber\":8,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":138}],\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 1030,
+    "time": "2016-02-05T19:42:44.925Z",
+    "id": 289
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "debug",
+          "click",
+          {
+            "type": "object",
+            "class": "MouseEvent",
+            "actor": "server1.conn2.obj244",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 1,
+            "preview": {
+              "kind": "DOMEvent",
+              "type": "click",
+              "properties": {
+                "buttons": 0,
+                "clientX": 167,
+                "clientY": 129,
+                "layerX": 167,
+                "layerY": 741
+              },
+              "target": {
+                "type": "object",
+                "class": "HTMLButtonElement",
+                "actor": "server1.conn2.obj245",
+                "extensible": true,
+                "frozen": false,
+                "sealed": false,
+                "ownPropertyLength": 0,
+                "preview": {
+                  "kind": "DOMNode",
+                  "nodeType": 1,
+                  "nodeName": "button",
+                  "attributes": {
+                    "id": "consoleAPI"
+                  },
+                  "attributesLength": 1
+                }
+              }
+            }
+          }
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "myEventHandler",
+        "groupName": "",
+        "level": "debug",
+        "lineNumber": 280,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363946,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"debug\",\"click\",{\"type\":\"object\",\"class\":\"MouseEvent\",\"actor\":\"server1.conn2.obj244\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":1,\"preview\":{\"kind\":\"DOMEvent\",\"type\":\"click\",\"properties\":{\"buttons\":0,\"clientX\":167,\"clientY\":129,\"layerX\":167,\"layerY\":741},\"target\":{\"type\":\"object\",\"class\":\"HTMLButtonElement\",\"actor\":\"server1.conn2.obj245\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":0,\"preview\":{\"kind\":\"DOMNode\",\"nodeType\":1,\"nodeName\":\"button\",\"attributes\":{\"id\":\"consoleAPI\"},\"attributesLength\":1}}}}],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"myEventHandler\",\"groupName\":\"\",\"level\":\"debug\",\"lineNumber\":280,\"private\":false,\"styles\":[],\"timeStamp\":1454701363946,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 931,
+    "time": "2016-02-05T19:42:44.957Z",
+    "id": 290
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          {
+            "type": "object",
+            "class": "StyleSheetList",
+            "actor": "server1.conn2.obj246",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 3,
+            "preview": {
+              "kind": "ArrayLike",
+              "length": 3,
+              "items": [
+                {
+                  "type": "object",
+                  "class": "CSSStyleSheet",
+                  "actor": "server1.conn2.obj247",
+                  "extensible": true,
+                  "frozen": false,
+                  "sealed": false,
+                  "ownPropertyLength": 0,
+                  "preview": {
+                    "kind": "ObjectWithURL",
+                    "url": "http://bgrins.github.io/devtools-demos/shared/styles.css"
+                  }
+                },
+                {
+                  "type": "object",
+                  "class": "CSSStyleSheet",
+                  "actor": "server1.conn2.obj248",
+                  "extensible": true,
+                  "frozen": false,
+                  "sealed": false,
+                  "ownPropertyLength": 0
+                },
+                {
+                  "type": "object",
+                  "class": "CSSStyleSheet",
+                  "actor": "server1.conn2.obj249",
+                  "extensible": true,
+                  "frozen": false,
+                  "sealed": false,
+                  "ownPropertyLength": 0,
+                  "preview": {
+                    "kind": "ObjectWithURL",
+                    "url": "http://bgrins.github.io/devtools-demos/console/test-unmatched.css?foobaz=foobar#lolz"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "object",
+            "class": "Console",
+            "actor": "server1.conn2.obj250",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 1,
+            "preview": {
+              "kind": "Object",
+              "ownProperties": {
+                "__returnValue__": {
+                  "configurable": true,
+                  "enumerable": true,
+                  "writable": true,
+                  "value": "test"
+                }
+              },
+              "ownPropertiesLength": 1,
+              "safeGetterValues": {}
+            }
+          }
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "dir",
+        "lineNumber": 213,
+        "private": false,
+        "timeStamp": 1454701363948,
+        "timer": null,
+        "workerType": "none",
+        "styles": [],
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[{\"type\":\"object\",\"class\":\"StyleSheetList\",\"actor\":\"server1.conn2.obj246\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":3,\"preview\":{\"kind\":\"ArrayLike\",\"length\":3,\"items\":[{\"type\":\"object\",\"class\":\"CSSStyleSheet\",\"actor\":\"server1.conn2.obj247\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":0,\"preview\":{\"kind\":\"ObjectWithURL\",\"url\":\"http://bgrins.github.io/devtools-demos/shared/styles.css\"}},{\"type\":\"object\",\"class\":\"CSSStyleSheet\",\"actor\":\"server1.conn2.obj248\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":0},{\"type\":\"object\",\"class\":\"CSSStyleSheet\",\"actor\":\"server1.conn2.obj249\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":0,\"preview\":{\"kind\":\"ObjectWithURL\",\"url\":\"http://bgrins.github.io/devtools-demos/console/test-unmatched.css?foobaz=foobar#lolz\"}}]}},{\"type\":\"object\",\"class\":\"Console\",\"actor\":\"server1.conn2.obj250\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":1,\"preview\":{\"kind\":\"Object\",\"ownProperties\":{\"__returnValue__\":{\"configurable\":true,\"enumerable\":true,\"writable\":true,\"value\":\"test\"}},\"ownPropertiesLength\":1,\"safeGetterValues\":{}}}],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"dir\",\"lineNumber\":213,\"private\":false,\"timeStamp\":1454701363948,\"timer\":null,\"workerType\":\"none\",\"styles\":[],\"category\":\"webdev\"}}",
+    "size": 1532,
+    "time": "2016-02-05T19:42:44.994Z",
+    "id": 291
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "foocount"
+        ],
+        "columnNumber": 11,
+        "counter": {
+          "count": 11,
+          "label": "foocount"
+        },
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "foobarTraceMe1",
+        "groupName": "",
+        "level": "count",
+        "lineNumber": 142,
+        "private": false,
+        "timeStamp": 1454701363950,
+        "timer": null,
+        "workerType": "none",
+        "styles": [],
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"foocount\"],\"columnNumber\":11,\"counter\":{\"count\":11,\"label\":\"foocount\"},\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe1\",\"groupName\":\"\",\"level\":\"count\",\"lineNumber\":142,\"private\":false,\"timeStamp\":1454701363950,\"timer\":null,\"workerType\":\"none\",\"styles\":[],\"category\":\"webdev\"}}",
+    "size": 415,
+    "time": "2016-02-05T19:42:45.031Z",
+    "id": 292
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "test stacktrace in console.assert",
+          {
+            "type": "object",
+            "class": "Window",
+            "actor": "server1.conn2.obj251",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 781,
+            "preview": {
+              "kind": "ObjectWithURL",
+              "url": "http://bgrins.github.io/devtools-demos/console/all.html"
+            }
+          }
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "foobarTraceMe3",
+        "groupName": "",
+        "level": "assert",
+        "lineNumber": 155,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363950,
+        "timer": null,
+        "stacktrace": [
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe3",
+            "language": 2,
+            "lineNumber": 155
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe2",
+            "language": 2,
+            "lineNumber": 151
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe1",
+            "language": 2,
+            "lineNumber": 143
+          },
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 214
+          },
+          {
+            "asyncCause": "EventListener.handleEvent",
+            "columnNumber": 9,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 190
+          },
+          {
+            "columnNumber": 8,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 138
+          }
+        ],
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"test stacktrace in console.assert\",{\"type\":\"object\",\"class\":\"Window\",\"actor\":\"server1.conn2.obj251\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":781,\"preview\":{\"kind\":\"ObjectWithURL\",\"url\":\"http://bgrins.github.io/devtools-demos/console/all.html\"}}],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"groupName\":\"\",\"level\":\"assert\",\"lineNumber\":155,\"private\":false,\"styles\":[],\"timeStamp\":1454701363950,\"timer\":null,\"stacktrace\":[{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"language\":2,\"lineNumber\":155},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe2\",\"language\":2,\"lineNumber\":151},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe1\",\"language\":2,\"lineNumber\":143},{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":214},{\"asyncCause\":\"EventListener.handleEvent\",\"columnNumber\":9,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":190},{\"columnNumber\":8,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":138}],\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 1569,
+    "time": "2016-02-05T19:42:45.065Z",
+    "id": 293
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "foobarTraceMe3",
+        "groupName": "",
+        "level": "trace",
+        "lineNumber": 156,
+        "private": false,
+        "timeStamp": 1454701363951,
+        "timer": null,
+        "stacktrace": [
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe3",
+            "language": 2,
+            "lineNumber": 156
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe2",
+            "language": 2,
+            "lineNumber": 151
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe1",
+            "language": 2,
+            "lineNumber": 143
+          },
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 214
+          },
+          {
+            "asyncCause": "EventListener.handleEvent",
+            "columnNumber": 9,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 190
+          },
+          {
+            "columnNumber": 8,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 138
+          }
+        ],
+        "workerType": "none",
+        "styles": [],
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"groupName\":\"\",\"level\":\"trace\",\"lineNumber\":156,\"private\":false,\"timeStamp\":1454701363951,\"timer\":null,\"stacktrace\":[{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"language\":2,\"lineNumber\":156},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe2\",\"language\":2,\"lineNumber\":151},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe1\",\"language\":2,\"lineNumber\":143},{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":214},{\"asyncCause\":\"EventListener.handleEvent\",\"columnNumber\":9,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":190},{\"columnNumber\":8,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":138}],\"workerType\":\"none\",\"styles\":[],\"category\":\"webdev\"}}",
+    "size": 1296,
+    "time": "2016-02-05T19:42:45.096Z",
+    "id": 294
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "test stacktrace in console.error",
+          {
+            "type": "object",
+            "class": "HTMLBodyElement",
+            "actor": "server1.conn2.obj252",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 0,
+            "preview": {
+              "kind": "DOMNode",
+              "nodeType": 1,
+              "nodeName": "body",
+              "attributes": {
+                "class": "header"
+              },
+              "attributesLength": 1
+            }
+          }
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "foobarTraceMe3",
+        "groupName": "",
+        "level": "error",
+        "lineNumber": 157,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363952,
+        "timer": null,
+        "stacktrace": [
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe3",
+            "language": 2,
+            "lineNumber": 157
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe2",
+            "language": 2,
+            "lineNumber": 151
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe1",
+            "language": 2,
+            "lineNumber": 143
+          },
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 214
+          },
+          {
+            "asyncCause": "EventListener.handleEvent",
+            "columnNumber": 9,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 190
+          },
+          {
+            "columnNumber": 8,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 138
+          }
+        ],
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"test stacktrace in console.error\",{\"type\":\"object\",\"class\":\"HTMLBodyElement\",\"actor\":\"server1.conn2.obj252\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":0,\"preview\":{\"kind\":\"DOMNode\",\"nodeType\":1,\"nodeName\":\"body\",\"attributes\":{\"class\":\"header\"},\"attributesLength\":1}}],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"groupName\":\"\",\"level\":\"error\",\"lineNumber\":157,\"private\":false,\"styles\":[],\"timeStamp\":1454701363952,\"timer\":null,\"stacktrace\":[{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"language\":2,\"lineNumber\":157},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe2\",\"language\":2,\"lineNumber\":151},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe1\",\"language\":2,\"lineNumber\":143},{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":214},{\"asyncCause\":\"EventListener.handleEvent\",\"columnNumber\":9,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":190},{\"columnNumber\":8,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":138}],\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 1588,
+    "time": "2016-02-05T19:42:45.133Z",
+    "id": 295
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "test stacktrace in console.assert",
+          {
+            "type": "object",
+            "class": "Window",
+            "actor": "server1.conn2.obj253",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 781,
+            "preview": {
+              "kind": "ObjectWithURL",
+              "url": "http://bgrins.github.io/devtools-demos/console/all.html"
+            }
+          }
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "foobarTraceMe3",
+        "groupName": "",
+        "level": "assert",
+        "lineNumber": 155,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363953,
+        "timer": null,
+        "stacktrace": [
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe3",
+            "language": 2,
+            "lineNumber": 155
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe2",
+            "language": 2,
+            "lineNumber": 151
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe1b",
+            "language": 2,
+            "lineNumber": 147
+          },
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 215
+          },
+          {
+            "asyncCause": "EventListener.handleEvent",
+            "columnNumber": 9,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 190
+          },
+          {
+            "columnNumber": 8,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 138
+          }
+        ],
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"test stacktrace in console.assert\",{\"type\":\"object\",\"class\":\"Window\",\"actor\":\"server1.conn2.obj253\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":781,\"preview\":{\"kind\":\"ObjectWithURL\",\"url\":\"http://bgrins.github.io/devtools-demos/console/all.html\"}}],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"groupName\":\"\",\"level\":\"assert\",\"lineNumber\":155,\"private\":false,\"styles\":[],\"timeStamp\":1454701363953,\"timer\":null,\"stacktrace\":[{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"language\":2,\"lineNumber\":155},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe2\",\"language\":2,\"lineNumber\":151},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe1b\",\"language\":2,\"lineNumber\":147},{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":215},{\"asyncCause\":\"EventListener.handleEvent\",\"columnNumber\":9,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":190},{\"columnNumber\":8,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":138}],\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 1570,
+    "time": "2016-02-05T19:42:45.170Z",
+    "id": 296
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "foobarTraceMe3",
+        "groupName": "",
+        "level": "trace",
+        "lineNumber": 156,
+        "private": false,
+        "timeStamp": 1454701363954,
+        "timer": null,
+        "stacktrace": [
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe3",
+            "language": 2,
+            "lineNumber": 156
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe2",
+            "language": 2,
+            "lineNumber": 151
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe1b",
+            "language": 2,
+            "lineNumber": 147
+          },
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 215
+          },
+          {
+            "asyncCause": "EventListener.handleEvent",
+            "columnNumber": 9,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 190
+          },
+          {
+            "columnNumber": 8,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 138
+          }
+        ],
+        "workerType": "none",
+        "styles": [],
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"groupName\":\"\",\"level\":\"trace\",\"lineNumber\":156,\"private\":false,\"timeStamp\":1454701363954,\"timer\":null,\"stacktrace\":[{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"language\":2,\"lineNumber\":156},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe2\",\"language\":2,\"lineNumber\":151},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe1b\",\"language\":2,\"lineNumber\":147},{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":215},{\"asyncCause\":\"EventListener.handleEvent\",\"columnNumber\":9,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":190},{\"columnNumber\":8,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":138}],\"workerType\":\"none\",\"styles\":[],\"category\":\"webdev\"}}",
+    "size": 1297,
+    "time": "2016-02-05T19:42:45.214Z",
+    "id": 297
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "test stacktrace in console.error",
+          {
+            "type": "object",
+            "class": "HTMLBodyElement",
+            "actor": "server1.conn2.obj254",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 0,
+            "preview": {
+              "kind": "DOMNode",
+              "nodeType": 1,
+              "nodeName": "body",
+              "attributes": {
+                "class": "header"
+              },
+              "attributesLength": 1
+            }
+          }
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "foobarTraceMe3",
+        "groupName": "",
+        "level": "error",
+        "lineNumber": 157,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363955,
+        "timer": null,
+        "stacktrace": [
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe3",
+            "language": 2,
+            "lineNumber": 157
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe2",
+            "language": 2,
+            "lineNumber": 151
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe1b",
+            "language": 2,
+            "lineNumber": 147
+          },
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 215
+          },
+          {
+            "asyncCause": "EventListener.handleEvent",
+            "columnNumber": 9,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 190
+          },
+          {
+            "columnNumber": 8,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 138
+          }
+        ],
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"test stacktrace in console.error\",{\"type\":\"object\",\"class\":\"HTMLBodyElement\",\"actor\":\"server1.conn2.obj254\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":0,\"preview\":{\"kind\":\"DOMNode\",\"nodeType\":1,\"nodeName\":\"body\",\"attributes\":{\"class\":\"header\"},\"attributesLength\":1}}],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"groupName\":\"\",\"level\":\"error\",\"lineNumber\":157,\"private\":false,\"styles\":[],\"timeStamp\":1454701363955,\"timer\":null,\"stacktrace\":[{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"language\":2,\"lineNumber\":157},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe2\",\"language\":2,\"lineNumber\":151},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe1b\",\"language\":2,\"lineNumber\":147},{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":215},{\"asyncCause\":\"EventListener.handleEvent\",\"columnNumber\":9,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":190},{\"columnNumber\":8,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":138}],\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 1589,
+    "time": "2016-02-05T19:42:45.250Z",
+    "id": 298
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "test stacktrace in console.assert",
+          {
+            "type": "object",
+            "class": "Window",
+            "actor": "server1.conn2.obj255",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 781,
+            "preview": {
+              "kind": "ObjectWithURL",
+              "url": "http://bgrins.github.io/devtools-demos/console/all.html"
+            }
+          }
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "foobarTraceMe3",
+        "groupName": "",
+        "level": "assert",
+        "lineNumber": 155,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363956,
+        "timer": null,
+        "stacktrace": [
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe3",
+            "language": 2,
+            "lineNumber": 155
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe2",
+            "language": 2,
+            "lineNumber": 151
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe1b",
+            "language": 2,
+            "lineNumber": 147
+          },
+          {
+            "columnNumber": 34,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 215
+          },
+          {
+            "asyncCause": "EventListener.handleEvent",
+            "columnNumber": 9,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 190
+          },
+          {
+            "columnNumber": 8,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 138
+          }
+        ],
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"test stacktrace in console.assert\",{\"type\":\"object\",\"class\":\"Window\",\"actor\":\"server1.conn2.obj255\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":781,\"preview\":{\"kind\":\"ObjectWithURL\",\"url\":\"http://bgrins.github.io/devtools-demos/console/all.html\"}}],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"groupName\":\"\",\"level\":\"assert\",\"lineNumber\":155,\"private\":false,\"styles\":[],\"timeStamp\":1454701363956,\"timer\":null,\"stacktrace\":[{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"language\":2,\"lineNumber\":155},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe2\",\"language\":2,\"lineNumber\":151},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe1b\",\"language\":2,\"lineNumber\":147},{\"columnNumber\":34,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":215},{\"asyncCause\":\"EventListener.handleEvent\",\"columnNumber\":9,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":190},{\"columnNumber\":8,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":138}],\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 1570,
+    "time": "2016-02-05T19:42:45.286Z",
+    "id": 299
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "foobarTraceMe3",
+        "groupName": "",
+        "level": "trace",
+        "lineNumber": 156,
+        "private": false,
+        "timeStamp": 1454701363957,
+        "timer": null,
+        "stacktrace": [
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe3",
+            "language": 2,
+            "lineNumber": 156
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe2",
+            "language": 2,
+            "lineNumber": 151
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe1b",
+            "language": 2,
+            "lineNumber": 147
+          },
+          {
+            "columnNumber": 34,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 215
+          },
+          {
+            "asyncCause": "EventListener.handleEvent",
+            "columnNumber": 9,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 190
+          },
+          {
+            "columnNumber": 8,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 138
+          }
+        ],
+        "workerType": "none",
+        "styles": [],
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"groupName\":\"\",\"level\":\"trace\",\"lineNumber\":156,\"private\":false,\"timeStamp\":1454701363957,\"timer\":null,\"stacktrace\":[{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"language\":2,\"lineNumber\":156},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe2\",\"language\":2,\"lineNumber\":151},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe1b\",\"language\":2,\"lineNumber\":147},{\"columnNumber\":34,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":215},{\"asyncCause\":\"EventListener.handleEvent\",\"columnNumber\":9,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":190},{\"columnNumber\":8,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":138}],\"workerType\":\"none\",\"styles\":[],\"category\":\"webdev\"}}",
+    "size": 1297,
+    "time": "2016-02-05T19:42:45.318Z",
+    "id": 300
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "test stacktrace in console.error",
+          {
+            "type": "object",
+            "class": "HTMLBodyElement",
+            "actor": "server1.conn2.obj256",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 0,
+            "preview": {
+              "kind": "DOMNode",
+              "nodeType": 1,
+              "nodeName": "body",
+              "attributes": {
+                "class": "header"
+              },
+              "attributesLength": 1
+            }
+          }
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "foobarTraceMe3",
+        "groupName": "",
+        "level": "error",
+        "lineNumber": 157,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363957,
+        "timer": null,
+        "stacktrace": [
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe3",
+            "language": 2,
+            "lineNumber": 157
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe2",
+            "language": 2,
+            "lineNumber": 151
+          },
+          {
+            "columnNumber": 18,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "foobarTraceMe1b",
+            "language": 2,
+            "lineNumber": 147
+          },
+          {
+            "columnNumber": 34,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 215
+          },
+          {
+            "asyncCause": "EventListener.handleEvent",
+            "columnNumber": 9,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 190
+          },
+          {
+            "columnNumber": 8,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 138
+          }
+        ],
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"test stacktrace in console.error\",{\"type\":\"object\",\"class\":\"HTMLBodyElement\",\"actor\":\"server1.conn2.obj256\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":0,\"preview\":{\"kind\":\"DOMNode\",\"nodeType\":1,\"nodeName\":\"body\",\"attributes\":{\"class\":\"header\"},\"attributesLength\":1}}],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"groupName\":\"\",\"level\":\"error\",\"lineNumber\":157,\"private\":false,\"styles\":[],\"timeStamp\":1454701363957,\"timer\":null,\"stacktrace\":[{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe3\",\"language\":2,\"lineNumber\":157},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe2\",\"language\":2,\"lineNumber\":151},{\"columnNumber\":18,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"foobarTraceMe1b\",\"language\":2,\"lineNumber\":147},{\"columnNumber\":34,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":215},{\"asyncCause\":\"EventListener.handleEvent\",\"columnNumber\":9,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":190},{\"columnNumber\":8,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":138}],\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 1589,
+    "time": "2016-02-05T19:42:45.356Z",
+    "id": 301
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "test no repeat",
+          {
+            "type": "object",
+            "class": "Object",
+            "actor": "server1.conn2.obj257",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 1,
+            "preview": {
+              "kind": "Object",
+              "ownProperties": {
+                "i": {
+                  "configurable": true,
+                  "enumerable": true,
+                  "writable": true,
+                  "value": 0
+                }
+              },
+              "ownPropertiesLength": 1,
+              "safeGetterValues": {}
+            }
+          }
+        ],
+        "columnNumber": 13,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 220,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363958,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"test no repeat\",{\"type\":\"object\",\"class\":\"Object\",\"actor\":\"server1.conn2.obj257\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":1,\"preview\":{\"kind\":\"Object\",\"ownProperties\":{\"i\":{\"configurable\":true,\"enumerable\":true,\"writable\":true,\"value\":0}},\"ownPropertiesLength\":1,\"safeGetterValues\":{}}}],\"columnNumber\":13,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":220,\"private\":false,\"styles\":[],\"timeStamp\":1454701363958,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 676,
+    "time": "2016-02-05T19:42:45.399Z",
+    "id": 302
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "test no repeat",
+          {
+            "type": "object",
+            "class": "Object",
+            "actor": "server1.conn2.obj258",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 1,
+            "preview": {
+              "kind": "Object",
+              "ownProperties": {
+                "i": {
+                  "configurable": true,
+                  "enumerable": true,
+                  "writable": true,
+                  "value": 1
+                }
+              },
+              "ownPropertiesLength": 1,
+              "safeGetterValues": {}
+            }
+          }
+        ],
+        "columnNumber": 13,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 220,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363959,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"test no repeat\",{\"type\":\"object\",\"class\":\"Object\",\"actor\":\"server1.conn2.obj258\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":1,\"preview\":{\"kind\":\"Object\",\"ownProperties\":{\"i\":{\"configurable\":true,\"enumerable\":true,\"writable\":true,\"value\":1}},\"ownPropertiesLength\":1,\"safeGetterValues\":{}}}],\"columnNumber\":13,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":220,\"private\":false,\"styles\":[],\"timeStamp\":1454701363959,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 676,
+    "time": "2016-02-05T19:42:45.432Z",
+    "id": 303
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "test no repeat",
+          {
+            "type": "object",
+            "class": "Object",
+            "actor": "server1.conn2.obj259",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 1,
+            "preview": {
+              "kind": "Object",
+              "ownProperties": {
+                "i": {
+                  "configurable": true,
+                  "enumerable": true,
+                  "writable": true,
+                  "value": 2
+                }
+              },
+              "ownPropertiesLength": 1,
+              "safeGetterValues": {}
+            }
+          }
+        ],
+        "columnNumber": 13,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 220,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363959,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"test no repeat\",{\"type\":\"object\",\"class\":\"Object\",\"actor\":\"server1.conn2.obj259\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":1,\"preview\":{\"kind\":\"Object\",\"ownProperties\":{\"i\":{\"configurable\":true,\"enumerable\":true,\"writable\":true,\"value\":2}},\"ownPropertiesLength\":1,\"safeGetterValues\":{}}}],\"columnNumber\":13,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":220,\"private\":false,\"styles\":[],\"timeStamp\":1454701363959,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 676,
+    "time": "2016-02-05T19:42:45.464Z",
+    "id": 304
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "test repeat",
+          0
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 223,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363960,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"test repeat\",0],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":223,\"private\":false,\"styles\":[],\"timeStamp\":1454701363960,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 377,
+    "time": "2016-02-05T19:42:45.497Z",
+    "id": 305
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "test repeat",
+          0
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 224,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363961,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"test repeat\",0],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":224,\"private\":false,\"styles\":[],\"timeStamp\":1454701363961,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 377,
+    "time": "2016-02-05T19:42:45.533Z",
+    "id": 306
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "test repeat",
+          2
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 225,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363961,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"test repeat\",2],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":225,\"private\":false,\"styles\":[],\"timeStamp\":1454701363961,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 377,
+    "time": "2016-02-05T19:42:45.577Z",
+    "id": 307
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "test repeat",
+          2
+        ],
+        "columnNumber": 42,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 225,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363962,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"test repeat\",2],\"columnNumber\":42,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":225,\"private\":false,\"styles\":[],\"timeStamp\":1454701363962,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 377,
+    "time": "2016-02-05T19:42:45.611Z",
+    "id": 308
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "test repeat",
+          0
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 226,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363962,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"test repeat\",0],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":226,\"private\":false,\"styles\":[],\"timeStamp\":1454701363962,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 377,
+    "time": "2016-02-05T19:42:45.644Z",
+    "id": 309
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "foocount"
+        ],
+        "columnNumber": 11,
+        "counter": {
+          "count": 12,
+          "label": "foocount"
+        },
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "count",
+        "lineNumber": 228,
+        "private": false,
+        "timeStamp": 1454701363963,
+        "timer": null,
+        "workerType": "none",
+        "styles": [],
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"foocount\"],\"columnNumber\":11,\"counter\":{\"count\":12,\"label\":\"foocount\"},\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"count\",\"lineNumber\":228,\"private\":false,\"timeStamp\":1454701363963,\"timer\":null,\"workerType\":\"none\",\"styles\":[],\"category\":\"webdev\"}}",
+    "size": 401,
+    "time": "2016-02-05T19:42:45.683Z",
+    "id": 310
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "false assert [object HTMLDocument]",
+          {
+            "type": "object",
+            "class": "Window",
+            "actor": "server1.conn2.obj260",
+            "extensible": true,
+            "frozen": false,
+            "sealed": false,
+            "ownPropertyLength": 781,
+            "preview": {
+              "kind": "ObjectWithURL",
+              "url": "http://bgrins.github.io/devtools-demos/console/all.html"
+            }
+          },
+          "foo"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "assert",
+        "lineNumber": 232,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363963,
+        "timer": null,
+        "stacktrace": [
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 232
+          },
+          {
+            "asyncCause": "EventListener.handleEvent",
+            "columnNumber": 9,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 190
+          },
+          {
+            "columnNumber": 8,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 138
+          }
+        ],
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"false assert [object HTMLDocument]\",{\"type\":\"object\",\"class\":\"Window\",\"actor\":\"server1.conn2.obj260\",\"extensible\":true,\"frozen\":false,\"sealed\":false,\"ownPropertyLength\":781,\"preview\":{\"kind\":\"ObjectWithURL\",\"url\":\"http://bgrins.github.io/devtools-demos/console/all.html\"}},\"foo\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"assert\",\"lineNumber\":232,\"private\":false,\"styles\":[],\"timeStamp\":1454701363963,\"timer\":null,\"stacktrace\":[{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":232},{\"asyncCause\":\"EventListener.handleEvent\",\"columnNumber\":9,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":190},{\"columnNumber\":8,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":138}],\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 1109,
+    "time": "2016-02-05T19:42:45.721Z",
+    "id": 311
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "falsy assert"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "assert",
+        "lineNumber": 233,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363964,
+        "timer": null,
+        "stacktrace": [
+          {
+            "columnNumber": 11,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 233
+          },
+          {
+            "asyncCause": "EventListener.handleEvent",
+            "columnNumber": 9,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 190
+          },
+          {
+            "columnNumber": 8,
+            "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+            "functionName": "",
+            "language": 2,
+            "lineNumber": 138
+          }
+        ],
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"falsy assert\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"assert\",\"lineNumber\":233,\"private\":false,\"styles\":[],\"timeStamp\":1454701363964,\"timer\":null,\"stacktrace\":[{\"columnNumber\":11,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":233},{\"asyncCause\":\"EventListener.handleEvent\",\"columnNumber\":9,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":190},{\"columnNumber\":8,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"language\":2,\"lineNumber\":138}],\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 844,
+    "time": "2016-02-05T19:42:45.762Z",
+    "id": 312
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "foo"
+        ],
+        "columnNumber": 24,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "timeEnd",
+        "lineNumber": 236,
+        "private": false,
+        "timeStamp": 1454701363965,
+        "timer": {
+          "duration": 42.22999999998137,
+          "name": "foo"
+        },
+        "workerType": "none",
+        "styles": [],
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"foo\"],\"columnNumber\":24,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"timeEnd\",\"lineNumber\":236,\"private\":false,\"timeStamp\":1454701363965,\"timer\":{\"duration\":42.22999999998137,\"name\":\"foo\"},\"workerType\":\"none\",\"styles\":[],\"category\":\"webdev\"}}",
+    "size": 410,
+    "time": "2016-02-05T19:42:45.799Z",
+    "id": 313
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "timeEnd result undefined"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 237,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363965,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"timeEnd result undefined\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":237,\"private\":false,\"styles\":[],\"timeStamp\":1454701363965,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 388,
+    "time": "2016-02-05T19:42:45.832Z",
+    "id": 314
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "foo2"
+        ],
+        "columnNumber": 20,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "timeEnd",
+        "lineNumber": 239,
+        "private": false,
+        "timeStamp": 1454701363966,
+        "workerType": "none",
+        "styles": [],
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"foo2\"],\"columnNumber\":20,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"timeEnd\",\"lineNumber\":239,\"private\":false,\"timeStamp\":1454701363966,\"workerType\":\"none\",\"styles\":[],\"category\":\"webdev\"}}",
+    "size": 359,
+    "time": "2016-02-05T19:42:45.864Z",
+    "id": 315
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [
+          "timeEnd2 result undefined"
+        ],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "log",
+        "lineNumber": 240,
+        "private": false,
+        "styles": [],
+        "timeStamp": 1454701363966,
+        "timer": null,
+        "workerType": "none",
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[\"timeEnd2 result undefined\"],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"log\",\"lineNumber\":240,\"private\":false,\"styles\":[],\"timeStamp\":1454701363966,\"timer\":null,\"workerType\":\"none\",\"category\":\"webdev\"}}",
+    "size": 389,
+    "time": "2016-02-05T19:42:45.898Z",
+    "id": 316
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "time",
+        "lineNumber": 242,
+        "private": false,
+        "timeStamp": 1454701363966,
+        "timer": null,
+        "workerType": "none",
+        "styles": [],
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"time\",\"lineNumber\":242,\"private\":false,\"timeStamp\":1454701363966,\"timer\":null,\"workerType\":\"none\",\"styles\":[],\"category\":\"webdev\"}}",
+    "size": 363,
+    "time": "2016-02-05T19:42:45.936Z",
+    "id": 317
+  },
+  {
+    "type": "receive",
+    "packet": {
+      "from": "server1.conn2.consoleActor2",
+      "type": "consoleAPICall",
+      "message": {
+        "arguments": [],
+        "columnNumber": 11,
+        "counter": null,
+        "filename": "http://bgrins.github.io/devtools-demos/console/all.html",
+        "functionName": "",
+        "groupName": "",
+        "level": "timeEnd",
+        "lineNumber": 243,
+        "private": false,
+        "timeStamp": 1454701363967,
+        "timer": null,
+        "workerType": "none",
+        "styles": [],
+        "category": "webdev"
+      }
+    },
+    "rawPacket": "{\"from\":\"server1.conn2.consoleActor2\",\"type\":\"consoleAPICall\",\"message\":{\"arguments\":[],\"columnNumber\":11,\"counter\":null,\"filename\":\"http://bgrins.github.io/devtools-demos/console/all.html\",\"functionName\":\"\",\"groupName\":\"\",\"level\":\"timeEnd\",\"lineNumber\":243,\"private\":false,\"timeStamp\":1454701363967,\"timer\":null,\"workerType\":\"none\",\"styles\":[],\"category\":\"webdev\"}}",
+    "size": 366,
+    "time": "2016-02-05T19:42:45.967Z",
+    "id": 318
+  }
+]
