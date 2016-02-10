@@ -8,6 +8,7 @@
 
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import TempTester from './TempTester';
 import ConsoleOutput from './ConsoleOutput';
 import JSTerm from './JSTermContainer';
 
@@ -16,6 +17,7 @@ class App extends Component {
     const dispatch = this.props.dispatch;
     return (
       <div className="wrapper">
+        <TempTester />
         <ConsoleOutput messages={this.props.data.messages} />
         <JSTerm />
       </div>
