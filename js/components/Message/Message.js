@@ -35,8 +35,14 @@ function Message(props) {
   // @TODO figure out which property to switch on to determine message type.
   const messageBody = <ConsoleGeneric message={message} />;
 
+  // @TODO handle input and server message categories
+  const category = "output";
+
+  // @TODO handle other severities
+  const severity = "warning";
+
   return (
-    <div className="message">
+    <div className="message" data-category={category} data-severity={severity}>
       <MessageTimestamp timestamp={message.timeStamp} />
       <MessageIcon />
       {prefix}

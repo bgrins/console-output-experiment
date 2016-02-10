@@ -1,0 +1,356 @@
+
+
+:root {
+  --theme-body-background: #fcfcfc;
+  --theme-sidebar-background: #f7f7f7;
+  --theme-contrast-background: #e6b064;
+  --theme-tab-toolbar-background: #ebeced;
+  --theme-toolbar-background: #f0f1f2;
+  --theme-selection-background: #4c9ed9;
+  --theme-selection-background-semitransparent: rgba(76, 158, 217, .23);
+  --theme-selection-color: #f5f7fa;
+  --theme-splitter-color: #aaaaaa;
+  --theme-comment: #757873;
+  --theme-body-color: #18191a;
+  --theme-body-color-alt: #585959;
+  --theme-content-color1: #292e33;
+  --theme-content-color2: #8fa1b2;
+  --theme-content-color3: #667380;
+  --theme-highlight-green: #2cbb0f;
+  --theme-highlight-blue: #0088cc;
+  --theme-highlight-bluegrey: #0072ab;
+  --theme-highlight-purple: #5b5fff;
+  --theme-highlight-lightorange: #d97e00;
+  --theme-highlight-orange: #f13c00;
+  --theme-highlight-red: #ed2655;
+  --theme-highlight-pink: #b82ee5;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: var(--theme-sidebar-background);
+}
+
+.hud-console-wrapper {
+  border: solid 1px var(--theme-splitter-color);
+  background: var(--theme-body-background);
+  display: flex;
+  height: 95vh;
+  width: 98vw;
+  margin: auto;
+  margin-top: 2.5vh;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-height: 100px;
+  min-width: 100px;
+}
+
+.header-wrapper,
+.output-wrapper,
+.jsterm-wrapper {
+  height: 20px;
+  padding: 5px;
+}
+
+.output-wrapper {
+  border-top: solid 1px var(--theme-splitter-color);
+  border-bottom: solid 1px var(--theme-splitter-color);
+  flex: 1;
+  overflow: scroll;
+}
+
+.message {
+  display: flex;
+  flex: none;
+  padding: 0 7px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.message > .prefix,
+.message > .timestamp {
+  flex: none;
+  color: var(--theme-comment);
+  margin: 3px 6px 0 0;
+}
+
+.message > .indent {
+  flex: none;
+}
+
+.message > .icon {
+  flex: none;
+  margin: 3px 6px 0 0;
+  padding: 0 4px;
+  height: 1em;
+  align-self: flex-start;
+}
+
+.message > .icon::before {
+  content: "";
+  background-image: url(webconsole.svg);
+  background-position: 12px 12px;
+  background-repeat: no-repeat;
+  background-size: 72px 60px;
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+}
+
+.theme-light .message > .icon::before {
+  background-image: url(webconsole.svg#light-icons);
+}
+
+.message > .message-body-wrapper {
+  flex: 1 1 100%;
+  margin: 3px;
+}
+
+.message-body-wrapper .table-widget-body {
+  overflow: visible;
+}
+
+/* The red bubble that shows the number of times a message is repeated */
+.message-repeats {
+  -moz-user-select: none;
+  flex: none;
+  margin: 2px 6px;
+  padding: 0 6px;
+  height: 1.25em;
+  color: white;
+  background-color: red;
+  border-radius: 40px;
+  font: message-box;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.message-repeats[value="1"] {
+  display: none;
+}
+
+.message-location {
+  display: flex;
+  flex: none;
+  align-self: flex-start;
+  justify-content: flex-end;
+  width: 10em;
+  margin-top: 3px;
+  color: -moz-nativehyperlinktext;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.message-location:hover,
+.message-location:focus {
+  text-decoration: underline;
+}
+
+.message-location > .filename {
+  text-overflow: ellipsis;
+  text-align: end;
+  overflow: hidden;
+}
+
+.message-location > .line-number {
+  flex: none;
+}
+
+.message-flex-body {
+  display: flex;
+}
+
+.message-body > * {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.message-flex-body > .message-body {
+  display: block;
+  flex: 1 1 auto;
+  vertical-align: middle;
+}
+
+.message-flex-body > .message-location {
+  margin-top: 0;
+}
+
+#output-wrapper {
+  direction: ltr;
+  overflow: auto;
+}
+
+#output-container {
+  /* This width is set to a hardcoded px in webconsole.js since it's way
+     faster than using 100% with -moz-box-flex (see Bug 1237368) */
+  -moz-user-select: text;
+}
+
+
+
+.message:hover {
+  background-color: var(--theme-selection-background-semitransparent) !important;
+}
+
+.theme-light .message[data-severity=error] {
+  background-color: rgba(255, 150, 150, 0.3);
+}
+
+.theme-dark .message[data-severity=error] {
+  background-color: rgba(235, 83, 104, 0.17);
+}
+
+.console-string {
+  color: var(--theme-highlight-lightorange);
+}
+
+.theme-selected .console-string,
+.theme-selected .cm-number,
+.theme-selected .cm-variable,
+.theme-selected .kind-ArrayLike {
+  color: #f5f7fa !important; /* Selection Text Color */
+}
+
+.message[data-category=network] > .indent {
+  -moz-border-end: solid #000 6px;
+}
+
+.message[data-category=network][data-severity=error] > .icon::before {
+  background-position: -12px 0;
+}
+
+.message[data-category=network] > .message-body {
+  display: flex;
+}
+
+.message[data-category=network] .method {
+  flex: none;
+}
+
+.message[data-category=network]:not(.navigation-marker) .url {
+  flex: 1 1 auto;
+  /* Make sure the URL is very small initially, let flex change width as needed. */
+  width: 100px;
+  min-width: 5em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.message[data-category=network] .status {
+  flex: none;
+  -moz-margin-start: 6px;
+}
+
+.message[data-category=network].mixed-content .url {
+  color: var(--theme-highlight-red);
+}
+
+.message .learn-more-link {
+  color: var(--theme-highlight-blue);
+  margin: 0 6px;
+}
+
+.message[data-category=network] .xhr {
+  background-color: var(--theme-body-color-alt);
+  color: var(--theme-body-background);
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 10px;
+  padding: 2px;
+  line-height: 10px;
+  -moz-margin-end: 1ex;
+}
+
+/* CSS styles */
+.webconsole-filter-button[data-category="css"] > .toolbarbutton-menubutton-button:before {
+  background-image: linear-gradient(#2DC3F3, #00B6F0);
+  border-color: #1BA2CC;
+}
+
+.message[data-category=cssparser] > .indent {
+  -moz-border-end: solid #00b6f0 6px;
+}
+
+.message[data-category=cssparser][data-severity=error] > .icon::before {
+  background-position: -12px -12px;
+}
+
+.message[data-category=cssparser][data-severity=warn] > .icon::before {
+  background-position: -24px -12px;
+}
+
+/* JS styles */
+.webconsole-filter-button[data-category="js"] > .toolbarbutton-menubutton-button:before {
+  background-image: linear-gradient(#FCB142, #FB9500);
+  border-color: #E98A00;
+}
+
+.message[data-category=exception] > .indent {
+  -moz-border-end: solid #fb9500 6px;
+}
+
+.message[data-category=exception][data-severity=error] > .icon::before {
+  background-position: -12px -24px;
+}
+
+.message[data-category=exception][data-severity=warn] > .icon::before {
+  background-position: -24px -24px;
+}
+
+/* Web Developer styles */
+.webconsole-filter-button[data-category="logging"] > .toolbarbutton-menubutton-button:before {
+  background-image: linear-gradient(#B9B9B9, #AAAAAA);
+  border-color: #929292;
+}
+
+.message[data-category=console] > .indent {
+  -moz-border-end: solid #cbcbcb 6px;
+}
+
+.message[data-category=console][data-severity=error] > .icon::before,
+.message[data-category=output][data-severity=error] > .icon::before,
+.message[data-category=server][data-severity=error] > .icon::before {
+  background-position: -12px -36px;
+}
+
+.message[data-category=console][data-severity=warn] > .icon::before,
+.message[data-category=server][data-severity=warn] > .icon::before {
+  background-position: -24px -36px;
+}
+
+.message[data-category=console][data-severity=info] > .icon::before,
+.message[data-category=server][data-severity=info] > .icon::before {
+  background-position: -36px -36px;
+}
+
+/* Server Logging Styles */
+
+.webconsole-filter-button[data-category="server"] > .toolbarbutton-menubutton-button:before {
+  background-image: linear-gradient(rgb(144, 176, 144), rgb(99, 151, 99));
+  border-color: rgb(76, 143, 76);
+}
+
+.message[data-category=server] > .indent {
+  -moz-border-end: solid #90B090 6px;
+}
+
+/* Input and output styles */
+.message[data-category=input] > .indent,
+.message[data-category=output] > .indent {
+  -moz-border-end: solid #808080 6px;
+}
+
+.message[data-category=input] > .icon::before {
+  background-position: -48px -36px;
+}
+
+.message[data-category=output] > .icon::before {
+  background-position: -60px -36px;
+}
+
+

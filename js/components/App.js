@@ -16,10 +16,16 @@ class App extends Component {
   render() {
     const dispatch = this.props.dispatch;
     return (
-      <div className="wrapper">
-        <TempTester />
-        <ConsoleOutput messages={this.props.data.messages} />
-        <JSTerm />
+      <div className="hud-console-wrapper">
+        <div className="header-wrapper">
+          <TempTester />
+        </div>
+        <div className="output-wrapper">
+          <ConsoleOutput messages={this.props.data.messages} />
+        </div>
+        <div className="jsterm-wrapper">
+          <JSTerm />
+        </div>
       </div>
     );
   }
