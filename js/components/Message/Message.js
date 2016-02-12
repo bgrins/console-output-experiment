@@ -5,18 +5,15 @@ import MessageBody from "./MessageBody";
 import ConsoleGeneric from "./ConsoleGeneric";
 
 Message.propTypes = {
-  // @TODO might make more sense to pass in the message
-  packet: PropTypes.shape({
-    message: PropTypes.shape({
-      // @TODO is this required?
-      category: PropTypes.string.isRequired,
-      timeStamp: PropTypes.number.isRequired
-    }).isRequired
+  message: PropTypes.shape({
+    // @TODO is this required?
+    category: PropTypes.string.isRequired,
+    timeStamp: PropTypes.number.isRequired
   }).isRequired
 }
 
 function Message(props) {
-  const { message } = props.packet;
+  const message = props.message;
 
   const attributes = {
     className: "message"
