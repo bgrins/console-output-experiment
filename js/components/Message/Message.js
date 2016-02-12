@@ -2,7 +2,7 @@ import React, { PropTypes } from "react";
 import MessageTimestamp from "./MessageTimestamp";
 import MessageIcon from "./MessageIcon";
 import MessageBody from "./MessageBody";
-import ConsoleGeneric from "./ConsoleGeneric";
+import messageTypes from "./Types";
 
 Message.propTypes = {
   message: PropTypes.shape({
@@ -29,8 +29,10 @@ function Message(props) {
   const indent = "";
   const prefix = "";
 
-  // @TODO figure out which property to switch on to determine message type.
-  const messageBody = <ConsoleGeneric message={message} />;
+  const messageBody = React.createElement(
+    messageTypes[message.messageType],
+    { message }
+  );
 
   // @TODO handle input and server message categories
   const category = "output";
