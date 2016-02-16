@@ -2,21 +2,18 @@ import React, { PropTypes } from "react";
 import MessageTimestamp from "./MessageTimestamp";
 import MessageIcon from "./MessageIcon";
 import MessageBody from "./MessageBody";
-import ConsoleGeneric from "./ConsoleGeneric";
+import messageTypes from "./Types";
 
 Message.propTypes = {
-  // @TODO might make more sense to pass in the message
-  packet: PropTypes.shape({
-    message: PropTypes.shape({
-      // @TODO is this required?
-      category: PropTypes.string.isRequired,
-      timeStamp: PropTypes.number.isRequired
-    }).isRequired
+  message: PropTypes.shape({
+    // @TODO is this required?
+    category: PropTypes.string.isRequired,
+    timeStamp: PropTypes.number.isRequired
   }).isRequired
 }
 
 function Message(props) {
-  const { message } = props.packet;
+  const message = props.message;
 
   const attributes = {
     className: "message"
@@ -32,8 +29,10 @@ function Message(props) {
   const indent = "";
   const prefix = "";
 
-  // @TODO figure out which property to switch on to determine message type.
-  const messageBody = <ConsoleGeneric message={message} />;
+  const messageBody = React.createElement(
+    messageTypes[message.messageType],
+    { message }
+  );
 
   // @TODO handle input and server message categories
   const category = "output";

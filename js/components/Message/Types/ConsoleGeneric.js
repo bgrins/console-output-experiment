@@ -1,7 +1,7 @@
 import React, { PropTypes } from "react";
-import MessageBody from "./MessageBody";
-import MessageLocation from "./MessageLocation";
-import BodyPieces from "./BodyPieces";
+import MessageBody from "../MessageBody";
+import MessageLocation from "../MessageLocation";
+import BodyPieces from "../BodyPieces";
 
 ConsoleGeneric.propTypes = {
   message: PropTypes.shape({
