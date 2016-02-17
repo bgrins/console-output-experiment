@@ -12,7 +12,7 @@ class TempTester extends Component {
           ConsoleGeneric
         </button>
         <button data-messagetype="JavaScriptEvalOutput" data-objecttype="Date" onClick={this.props.outputMessage}>
-          Date
+          Simulate `new Date()` JS eval
         </button>
       </div>
     );
