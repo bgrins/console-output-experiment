@@ -15,12 +15,7 @@ Message.propTypes = {
 function Message(props) {
   const message = props.message;
 
-  const attributes = {
-    className: "message"
-    // @TODO Determine if category, severity and filter really need to be
-    // attributes here, or if they are just used for the filter actions.
-  };
-  // @TODO Under what circumstances is this true?
+  // @TODO This is needed for 'input' messages (jsterm input echoed back into output)
   if (message.category == "input") {
     attributes.ariaLive = "off";
   }
@@ -34,7 +29,9 @@ function Message(props) {
   // @TODO handle input and server message categories
   const category = "output";
 
-  // @TODO handle other severities
+  // @TODO handle other severities.  Might be best to make the Message component
+  // a child of the message types so that severity etc could be passed in as props
+  // (similar to how messagebody is handled)
   const severity = "warning";
 
   return (

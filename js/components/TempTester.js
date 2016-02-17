@@ -17,6 +17,9 @@ class TempTester extends Component {
         <button data-messagetype="JavaScriptEvalOutput" data-objecttype="Date" onClick={this.props.outputMessages}>
           Simulate `new Date()` JS eval
         </button>
+        <button data-messagetype="ConsoleService" onClick={this.props.outputMessages}>
+          Simulate Console Service Message (Page Error)
+        </button>
       </div>
     );
   }

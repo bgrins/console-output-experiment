@@ -11,6 +11,9 @@ export function prepareMessageInput(messageType, packet) {
     case "JavaScriptEvalOutput":
       message = packet.result;
       break;
+    case "ConsoleService":
+      message = packet.pageError;
+      break;
   }
 
   message.messageType = messageType;
