@@ -8,10 +8,13 @@ class TempTester extends Component {
   render() {
     return (
       <div>
-        <button data-messagetype="ConsoleGeneric" onClick={this.props.outputMessage}>
+        <button data-messagetype="ConsoleGeneric" onClick={this.props.outputMessages}>
           ConsoleGeneric
         </button>
-        <button data-messagetype="JavaScriptEvalOutput" data-objecttype="Date" onClick={this.props.outputMessage}>
+        <button data-messagetype="ConsoleGeneric" data-nummessages="1000" onClick={this.props.outputMessages}>
+          Bunch of ConsoleGenerics
+        </button>
+        <button data-messagetype="JavaScriptEvalOutput" data-objecttype="Date" onClick={this.props.outputMessages}>
           Simulate `new Date()` JS eval
         </button>
       </div>
@@ -28,12 +31,18 @@ function mapStateToProps(state) {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    outputMessage: (event) => {
-      const {messagetype, objecttype} = event.target.dataset;
+    outputMessages: (event) => {
+      let {messagetype, objecttype, nummessages} = event.target.dataset;
+      if (!nummessages) {
+        nummessages = 1;
+      }
+
       let packet = objecttype ? data[messagetype][objecttype] : data[messagetype];
-      let message = prepareMessageInput(messagetype, packet);
-      dispatch(messageAdd(message));
-    }
+      for (var i = 0; i < nummessages; i++) {
+        let message = prepareMessageInput(messagetype, packet);
+        dispatch(messageAdd(message));
+      }
+    },
   };
 };
 
