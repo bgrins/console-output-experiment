@@ -1,5 +1,7 @@
 import ConsoleGeneric from "./ConsoleGeneric";
+import JavaScriptEvalOutput from "./JavaScriptEvalOutput";
 
 export default {
-  ConsoleGeneric
+  ConsoleGeneric,
+  JavaScriptEvalOutput
 }

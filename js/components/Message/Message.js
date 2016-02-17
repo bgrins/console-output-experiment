@@ -29,10 +29,7 @@ function Message(props) {
   const indent = "";
   const prefix = "";
 
-  const messageBody = React.createElement(
-    messageTypes[message.messageType],
-    { message }
-  );
+  const MessageType = messageTypes[message.messageType];
 
   // @TODO handle input and server message categories
   const category = "output";
@@ -45,7 +42,7 @@ function Message(props) {
       <MessageTimestamp timestamp={message.timeStamp} />
       <MessageIcon />
       {prefix}
-      {messageBody}
+      <MessageType message={message} />
     </div>
   );
 }
