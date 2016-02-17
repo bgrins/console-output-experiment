@@ -20,9 +20,7 @@ class App extends Component {
         <div className="header-wrapper">
           <TempTester />
         </div>
-        <div className="output-wrapper">
-          <ConsoleOutput messages={this.props.data.messages} />
-        </div>
+        <ConsoleOutput messages={this.props.data.messages} />
         <div className="jsterm-wrapper">
           <JSTerm />
         </div>
