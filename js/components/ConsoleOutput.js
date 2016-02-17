@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Message from "./Message/Message";
+import messageTypes from "./Message/Types";
 
 class ConsoleOutput extends Component {
   componentWillUpdate() {
@@ -17,7 +17,8 @@ class ConsoleOutput extends Component {
 
   render() {
     let messageNodes = this.props.messages.map(function(message) {
-      return (<Message message={message}></Message>)
+      const MessageType = messageTypes[message.messageType];
+      return (<MessageType message={message}></MessageType>)
     });
 
     return (

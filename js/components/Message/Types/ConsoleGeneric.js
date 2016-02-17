@@ -6,6 +6,8 @@ import BodyPieces from "../BodyPieces";
 ConsoleGeneric.propTypes = {
   message: PropTypes.shape({
     arguments: PropTypes.array.isRequired,
+    category: PropTypes.string.isRequired,
+    timeStamp: PropTypes.number.isRequired,
   }).isRequired,
 }
 
@@ -15,14 +17,10 @@ function ConsoleGeneric(props) {
   let location = props.location ? <MessageLocation target="jsdebugger" /> : "";
 
   return (
-    <MessageBody wrapper>
-      <span className="message-flex-body">
-        <span className="message-body devtools-monospace">
-          <BodyPieces pieces={props.message.arguments} />
-          {repeat}
-          {location}
-        </span>
-      </span>
+    <MessageBody message={props.message} isFlexed>
+      <BodyPieces pieces={props.message.arguments} />
+      {repeat}
+      {location}
     </MessageBody>
   );
 }

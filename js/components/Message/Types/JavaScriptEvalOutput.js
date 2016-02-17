@@ -5,7 +5,9 @@ import JSObjectTypes from "./JSObject";
 JavaScriptEvalOutput.propTypes = {
   message: PropTypes.shape({
     type: PropTypes.string.isRequired,
-    class: PropTypes.string
+    class: PropTypes.string,
+    category: PropTypes.string.isRequired,
+    timeStamp: PropTypes.number.isRequired,
   }).isRequired,
 }
 
@@ -17,12 +19,8 @@ function JavaScriptEvalOutput(props) {
   }
 
   return (
-    <MessageBody wrapper>
-      <span className="message-flex-body">
-        <span className="message-body devtools-monospace">
-          <ComponentClass message={message} />
-        </span>
-      </span>
+    <MessageBody message={props.message} isFlexed>
+      <ComponentClass message={message} />
     </MessageBody>
   );
 }

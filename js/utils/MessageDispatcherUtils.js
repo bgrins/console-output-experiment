@@ -10,6 +10,9 @@ export function prepareMessageInput(messageType, packet) {
       break;
     case "JavaScriptEvalOutput":
       message = packet.result;
+      // The timestamp isn't attached to the 'result' portion of the packet,
+      // and also it's all lower case from this packet for whatever reason.
+      message.timeStamp = packet.timestamp;
       break;
     case "ConsoleService":
       message = packet.pageError;
