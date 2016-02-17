@@ -2,6 +2,7 @@ import React, { PropTypes } from "react";
 import MessageBody from "../MessageBody";
 import MessageLocation from "../MessageLocation";
 import BodyPieces from "../BodyPieces";
+import MessageStacktrace from "../MessageStacktrace";
 
 ConsoleService.propTypes = {
   message: PropTypes.shape({
@@ -23,6 +24,7 @@ function ConsoleService(props) {
       <span className="message-flex-body">
         <span className="message-body devtools-monospace">
           <BodyPieces pieces={args} />
+          <MessageStacktrace stacktrace={props.message.stacktrace} />
         </span>
       </span>
     </MessageBody>

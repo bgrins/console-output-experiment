@@ -15,13 +15,30 @@ export default {
     "strict": false,
     "info": false,
     "private": false,
-    "stacktrace": [
-      {
-        "filename": "data:text/html,<script>asdf</script>",
-        "lineNumber": 1,
-        "columnNumber": 1,
-        "functionName": null
-      }
-    ]
+    "stacktrace": [{
+      "columnNumber": 68,
+      "filename": "test.html",
+      "functionName": "baz",
+      "language": 2,
+      "lineNumber": 1
+    }, {
+      "columnNumber": 43,
+      "filename": "test.html",
+      "functionName": "bar",
+      "language": 2,
+      "lineNumber": 2
+    }, {
+      "columnNumber": 18,
+      "filename": "test.html",
+      "functionName": "foo",
+      "language": 2,
+      "lineNumber": 3
+    }, {
+      "columnNumber": 150,
+      "filename": "test.html",
+      "functionName": "",
+      "language": 2,
+      "lineNumber": 4
+    }]
   }
 }

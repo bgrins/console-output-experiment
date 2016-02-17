@@ -1,4 +1,7 @@
 
+:root {
+  font: message-box;
+}
 
 :root {
   --theme-body-background: #fcfcfc;
@@ -353,4 +356,64 @@ html {
   background-position: -60px -36px;
 }
 
+/* Stack traces */
+.stacktrace {
+  display: none;
+  list-style: none;
+  padding: 0 1em 0 1.5em;
+  margin: 5px 0 0 0;
+  max-height: 10em;
+  overflow-y: auto;
+  border: 1px solid var(--theme-splitter-color);
+  border-radius: 3px;
+}
 
+.consoletable {
+  margin: 5px 0 0 0;
+}
+
+.theme-light .message[severity=error] .stacktrace {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.theme-dark .message[severity=error] .stacktrace {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.stacktrace[data-open]  {
+  display: block;
+}
+
+.message .theme-twisty {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 3px 0 0 0;
+  flex-shrink: 0;
+}
+
+.stacktrace li {
+  display: flex;
+  margin: 0;
+}
+
+.stacktrace .function {
+  display: block;
+  flex: 1 1 auto;
+}
+
+.cm-s-mozilla a[class] {
+  font-style: italic;
+  text-decoration: none;
+}
+
+.cm-s-mozilla a[class]:hover,
+.cm-s-mozilla a[class]:focus {
+  text-decoration: underline;
+}
+.theme-fg-color3,
+.cm-s-mozilla .cm-variable,
+.cm-s-mozilla .cm-tag,
+.cm-s-mozilla .cm-header,
+.cm-s-mozilla .cm-bracket {
+    color: var(--theme-highlight-bluegrey);
+}
