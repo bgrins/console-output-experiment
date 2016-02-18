@@ -1,5 +1,6 @@
 import React, { PropTypes } from "react";
 import MessageBody from "../MessageBody";
+import MessageRepeat from "../MessageRepeat";
 import MessageLocation from "../MessageLocation";
 import BodyPieces from "../BodyPieces";
 
@@ -13,8 +14,8 @@ ConsoleGeneric.propTypes = {
 
 function ConsoleGeneric(props) {
   // @TODO actually handle repeat and location (and add prop definitions)
-  let repeat = props.repeat ? <MessageRepeat /> : "";
-  let location = props.location ? <MessageLocation target="jsdebugger" /> : "";
+  let repeat = props.message.repeats ? <MessageRepeat repeats={props.message.repeats} /> : "";
+  let location = props.message.location ? <MessageLocation target="jsdebugger" /> : "";
 
   return (
     <MessageBody message={props.message} isFlexed>

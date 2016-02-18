@@ -2,8 +2,8 @@ import React, { PropTypes } from "react";
 
 function MessageRepeat(props) {
   return (
-    <span value="1" className="message-repeats">
-      // @TODO implement
+    <span value="{props.repeats}" className="message-repeats">
+      {props.repeats}
     </span>
   );
 }
