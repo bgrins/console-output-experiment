@@ -55,7 +55,7 @@ html {
 .header-wrapper,
 .output-wrapper,
 .jsterm-wrapper {
-  height: 20px;
+  min-height: 20px;
   padding: 5px;
 }
 
