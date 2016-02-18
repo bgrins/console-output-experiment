@@ -10,6 +10,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import TempTester from './TempTester';
 import ConsoleOutput from './ConsoleOutput';
+import ConsoleToolbar from './ConsoleToolbar';
 import JSTerm from './JSTermContainer';
 
 class App extends Component {
@@ -18,10 +19,11 @@ class App extends Component {
     return (
       <div className="hud-console-wrapper">
         <div className="header-wrapper">
-          <TempTester />
+          <ConsoleToolbar />
         </div>
         <ConsoleOutput messages={this.props.data.messages} />
         <div className="jsterm-wrapper">
+          <TempTester />
           <JSTerm />
         </div>
       </div>
