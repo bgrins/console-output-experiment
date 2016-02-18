@@ -22,7 +22,7 @@ function MessageBody(props) {
   return (
     <div className="message" data-category={category} data-severity={severity}>
       <MessageTimestamp timestamp={timeStamp} />
-      <MessageIcon />
+      <MessageIcon severity={severity} />
       {prefix}
       <span className="message-body-wrapper message-body devtools-monospace">
         <span>
