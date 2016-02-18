@@ -66,6 +66,7 @@ export function prepareMessageInput(messageType, packet) {
     case "ConsoleGeneric":
       message = packet.message;
       message.severity = SEVERITY_CLASS_FRAGMENTS[LEVELS[message.level]];
+      message.allowRepeating = true;
       break;
     case "JavaScriptEvalOutput":
       message = packet.result;
@@ -83,5 +84,8 @@ export function prepareMessageInput(messageType, packet) {
   }
 
   message.messageType = messageType;
-  return message
+
+  // Clone the message (needed since our test data is exporting objects directly).
+  // Won't be needed when actual RDP packets are coming in
+  return JSON.parse(JSON.stringify(message))
 }
