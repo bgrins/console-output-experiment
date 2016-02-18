@@ -24,7 +24,7 @@ class ConsoleOutput extends Component {
     return (
       <div className="output-wrapper">
         <div id="output-container"
-             tabindex="0"
+             tabIndex="0"
              role="document"
              aria-live="polite">{messageNodes}</div>
       </div>
