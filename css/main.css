@@ -63,7 +63,7 @@ html {
   border-top: solid 1px var(--theme-splitter-color);
   border-bottom: solid 1px var(--theme-splitter-color);
   flex: 1;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .message {
