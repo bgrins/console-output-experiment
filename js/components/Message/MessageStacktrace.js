@@ -5,6 +5,8 @@ MessageStacktrace.propTypes = {
 }
 
 function MessageStacktrace(props) {
+  // @TODO need to make the stacktrace collapsible
+
   let pieces = props.stacktrace.map(function(trace) {
     return (
       <li>
