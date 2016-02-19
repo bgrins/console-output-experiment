@@ -59,6 +59,18 @@ html {
   padding: 5px;
 }
 
+/* Top toolbar */
+.console-toolbar {
+  display: flex;
+}
+.console-toolbar-start {
+  flex: 1;
+}
+.console-toolbar-end {
+  flex-shrink: 0;
+}
+
+/* Console output */
 .output-wrapper {
   border-top: solid 1px var(--theme-splitter-color);
   border-bottom: solid 1px var(--theme-splitter-color);
