@@ -1,4 +1,4 @@
-import { MESSAGE_ADD, MESSAGE_CLEAR } from '../constants/AppConstants';
+import { MESSAGE_ADD, MESSAGES_CLEAR } from '../constants/AppConstants';
 
 const initialState = {
   messages: []
@@ -13,7 +13,7 @@ function homeReducer(state = initialState, action) {
       return Object.assign({}, state, {
         messages: removeRepeats(messages)
       });
-    case MESSAGE_CLEAR:
+    case MESSAGES_CLEAR:
       return Object.assign({}, state, { messages: [] });
     default:
       return state;
