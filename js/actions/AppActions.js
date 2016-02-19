@@ -1,9 +1,9 @@
-import { MESSAGE_ADD, MESSAGE_CLEAR } from '../constants/AppConstants';
+import { MESSAGE_ADD, MESSAGES_CLEAR } from '../constants/AppConstants';
 
 export function messageAdd(message) {
   return { type: MESSAGE_ADD, message };
 }
 
 export function messageClear() {
-  return { type: MESSAGE_CLEAR };
+  return { type: MESSAGES_CLEAR };
 }

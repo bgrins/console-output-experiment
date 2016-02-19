@@ -4,13 +4,13 @@ import { connect } from 'react-redux';
 
 class ConsoleToolbar extends Component {
   render() {
-    return (
-      <button onClick={this.clear.bind(this)}>Clear</button>
-    );
-  }
+    let clear = () => {
+      this.props.dispatch(messageClear());
+    };
 
-  clear() {
-    this.props.dispatch(messageClear());
+    return (
+      <button onClick={clear}>Clear</button>
+    );
   }
 }
 
