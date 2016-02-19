@@ -42,18 +42,9 @@ function removeRepeats(messages) {
     if (!message._repeatID) {
       let clonedMessage = JSON.parse(JSON.stringify(message));
       delete clonedMessage.timeStamp;
+      delete clonedMessage.uniqueID;
       message._repeatID = JSON.stringify(clonedMessage);
     }
-
-    // Alternatively, here is the explicit approach:
-    // message._repeatID = message._repeatID || JSON.stringify({
-    //   category: message.category,
-    //   severity: message.severity,
-    //   prefix: message.prefix,
-    //   private: message.private,
-    //   location: message.location,
-    //   arguments: message.arguments,
-    // });
 
     if (message._repeatID === lastRepeatID) {
       if (!lastRepeatedMessage.repeats) {

@@ -59,6 +59,8 @@ const LEVELS = {
   count: SEVERITY_LOG
 };
 
+let uniqueID = 0;
+
 export function prepareMessageInput(messageType, packet) {
   let message;
 
@@ -83,6 +85,7 @@ export function prepareMessageInput(messageType, packet) {
       break;
   }
 
+  message.uniqueID = uniqueID++;
   message.messageType = messageType;
 
   // Clone the message (needed since our test data is exporting objects directly).

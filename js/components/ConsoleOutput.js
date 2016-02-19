@@ -18,7 +18,7 @@ class ConsoleOutput extends Component {
   render() {
     let messageNodes = this.props.messages.map(function(message) {
       const MessageType = messageTypes[message.messageType];
-      return (<MessageType message={message}></MessageType>)
+      return (<MessageType key={message.uniqueID} message={message} />)
     });
 
     return (

@@ -18,7 +18,7 @@ function DateComponent(props) {
   return (
     <span className="class-Date">
       {anchor}
-      <span class="cm-string-2">
+      <span className="cm-string-2">
         {dateString}
       </span>
     </span>
