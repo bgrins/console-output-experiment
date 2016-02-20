@@ -19,9 +19,9 @@ class App extends Component {
     return (
       <div className="hud-console-wrapper">
         <div className="header-wrapper">
-          <ConsoleToolbar />
+          <ConsoleToolbar searchText={this.props.data.searchText} />
         </div>
-        <ConsoleOutput messages={this.props.data.messages} />
+        <ConsoleOutput messages={this.props.data.messages} searchText={this.props.data.searchText} />
         <div className="jsterm-wrapper">
           <TempTester />
           <JSTerm />
