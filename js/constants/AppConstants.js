@@ -1,2 +1,3 @@
 export const MESSAGE_ADD = 'MESSAGE_ADD';
 export const MESSAGES_CLEAR = 'MESSAGES_CLEAR';
+export const MESSAGES_SEARCH = 'MESSAGES_SEARCH';
