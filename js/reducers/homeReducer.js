@@ -1,4 +1,4 @@
-import { MESSAGE_ADD, MESSAGES_CLEAR } from '../constants/AppConstants';
+import { MESSAGE_ADD, MESSAGES_CLEAR, MESSAGES_SEARCH } from '../constants/AppConstants';
 
 const initialState = {
   messages: []
@@ -15,6 +15,8 @@ function homeReducer(state = initialState, action) {
       });
     case MESSAGES_CLEAR:
       return Object.assign({}, state, { messages: [] });
+    case MESSAGES_SEARCH:
+      return Object.assign({}, state, { searchText: action.text });
     default:
       return state;
   }
