@@ -7,8 +7,7 @@ import BodyPieces from "../BodyPieces";
 class ConsoleGeneric extends Component {
   shouldComponentUpdate(nextProps) {
     // Only re-render if the UI is going to change.
-    // @TODO are there other cases where this might need to re-render?
-    return this.props.message.repeats === nextProps.message.repeats;
+    return this.props.message.repeats !== nextProps.message.repeats;
   }
 
   render() {
