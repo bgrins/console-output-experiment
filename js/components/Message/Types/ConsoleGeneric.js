@@ -20,6 +20,7 @@ class ConsoleGeneric extends Component {
     return (
       <MessageBody message={props.message} isFlexed>
         <BodyPieces pieces={props.message.arguments} />
+        Test change
         {repeat}
         {location}
       </MessageBody>
