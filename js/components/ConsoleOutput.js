@@ -17,28 +17,16 @@ class ConsoleOutput extends Component {
   }
 
   render() {
-    let searchText = this.props.searchText;
-    let numHidden = 0;
     let messageNodes = this.props.messages.map(function(message) {
       const MessageType = messageTypes[message.messageType];
-
-      // @TODO implement a smarter search
-      if (searchText && message.arguments) {
-        if (!message.arguments.join("").includes(searchText)) {
-          numHidden++;
-          return null;
-        }
-      }
-
       return (
         <MessageType key={message.uniqueID} message={message} />
       );
-    }).filter(message=>message);
+    });
 
-    // @TODO: Move filter info to new component and add 'clear filter' link
     return (
       <div className="output-wrapper">
-        <FilterInfo numHidden={numHidden} />
+        <FilterInfo numHidden={this.props.numHidden} />
         <div id="output-container"
              tabIndex="0"
              role="document"

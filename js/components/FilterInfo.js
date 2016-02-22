@@ -1,13 +1,12 @@
 import React, { PropTypes } from "react";
-import { messagesSearch } from '../actions/AppActions';
+import { messagesFilter } from '../actions/AppActions';
 import { connect } from 'react-redux';
 
 function FilterInfo(props) {
   let clearFilters = () => {
-    props.dispatch(messagesSearch(""));
+    props.dispatch(messagesFilter(""));
   };
 
-  // @TODO implement 'clear filters' button
   if (props.numHidden > 0) {
     return (
       <div>

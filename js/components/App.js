@@ -12,6 +12,7 @@ import TempTester from './TempTester';
 import ConsoleOutput from './ConsoleOutput';
 import ConsoleToolbar from './ConsoleToolbar';
 import JSTerm from './JSTermContainer';
+import { getFilteredMessages } from '../reducers/rootReducer'
 
 class App extends Component {
   render() {
@@ -19,9 +20,9 @@ class App extends Component {
     return (
       <div className="hud-console-wrapper">
         <div className="header-wrapper">
-          <ConsoleToolbar searchText={this.props.data.searchText} />
+          <ConsoleToolbar filterText={this.props.filterText} />
         </div>
-        <ConsoleOutput messages={this.props.data.messages} searchText={this.props.data.searchText} />
+        <ConsoleOutput {...this.props} />
         <div className="jsterm-wrapper">
           <TempTester />
           <JSTerm />
@@ -35,8 +36,11 @@ class App extends Component {
 
 // Which props do we want to inject, given the global state?
 function select(state) {
+  let filteredMessages = getFilteredMessages(state);
   return {
-    data: state
+    messages: filteredMessages.messages,
+    filterText: state.filters.filterText,
+    numHidden: filteredMessages.numHidden,
   };
 }
 

@@ -4,8 +4,30 @@
  */
 
 import messages from './messages';
+import filters from './filters';
 import { combineReducers } from 'redux';
 
-const rootReducer = combineReducers({ messages })
+const rootReducer = combineReducers({ messages, filters })
+
+export function getFilteredMessages(state) {
+  let numHidden = 0;
+  let filterText = state.filters.filterText;
+
+  let newMessages = state.messages.slice(0).filter(message => {
+    // @TODO implement a smarter search
+    if (filterText && message.arguments) {
+      if (!message.arguments.join("").includes(filterText)) {
+        numHidden += message.repeats || 1;
+        return false;
+      }
+    }
+    return true;
+  });
+
+  return {
+    messages: newMessages,
+    numHidden: numHidden
+  };
+}
 
 export default rootReducer;

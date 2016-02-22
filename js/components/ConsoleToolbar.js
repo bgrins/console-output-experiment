@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { messageClear, messagesSearch } from '../actions/AppActions';
+import { messageClear, messagesFilter } from '../actions/AppActions';
 import { connect } from 'react-redux';
 
 class ConsoleToolbar extends Component {
@@ -11,8 +11,7 @@ class ConsoleToolbar extends Component {
       // @TODO Add severity filtering
     };
     let search = (e) => {
-      this.props.dispatch(messagesSearch(e.target.value));
-      // @TODO Implement search feature
+      this.props.dispatch(messagesFilter(e.target.value));
     };
 
 
@@ -27,7 +26,7 @@ class ConsoleToolbar extends Component {
           <button onClick={severityFilter}>Log</button>
         </div>
         <div className="console-toolbar-end">
-          <input onInput={search} value={this.props.searchText} placeholder="Search" /> &nbsp;
+          <input onInput={search} value={this.props.filterText} placeholder="Search" /> &nbsp;
           <a href="https://github.com/bgrins/console-output-experiment/">repo</a>
         </div>
       </div>
