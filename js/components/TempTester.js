@@ -20,6 +20,9 @@ class TempTester extends Component {
         <button data-messagetype="ConsoleService" onClick={this.props.outputMessages}>
           Simulate Console Service Message (Page Error)
         </button>
+        <button onClick={this.props.outputMessageStream}>
+          Simulate a bunch of messages
+        </button>
       </div>
     );
   }
@@ -33,7 +36,36 @@ function mapStateToProps(state) {
 }
 
 const mapDispatchToProps = (dispatch) => {
+
+  function dispatchMessageFromRDP(packet) {
+    let {type} = packet;
+    if (type === "consoleAPICall") {
+      let message = prepareMessageInput("ConsoleGeneric", packet);
+      dispatch(messageAdd(message))
+    }
+    if (type === "pageError") {
+      let message = prepareMessageInput("ConsoleService", packet);
+      dispatch(messageAdd(message))
+    }
+    if (type === "evaluationResult") {
+      let message = prepareMessageInput("JavaScriptEvalOutput", packet);
+      dispatch(messageAdd(message))
+    }
+    if (type === "networkEvent") {
+      // @TODO: Implement network event log
+    }
+    if (type === "networkEventUpdate") {
+      // @TODO: Implement network event log
+    }
+  }
+
   return {
+    outputMessageStream: () => {
+      let messages = data.MessageStream();
+      for (var i = 0; i < messages.length; i++) {
+        dispatchMessageFromRDP(messages[i]);
+      }
+    },
     outputMessages: (event) => {
       let {messagetype, objecttype, nummessages} = event.target.dataset;
       if (!nummessages) {
@@ -42,8 +74,7 @@ const mapDispatchToProps = (dispatch) => {
 
       let packet = objecttype ? data[messagetype][objecttype] : data[messagetype];
       for (var i = 0; i < nummessages; i++) {
-        let message = prepareMessageInput(messagetype, packet);
-        dispatch(messageAdd(message));
+        dispatchMessageFromRDP(packet);
       }
     },
   };

@@ -7,6 +7,10 @@ MessageStacktrace.propTypes = {
 function MessageStacktrace(props) {
   // @TODO need to make the stacktrace collapsible
 
+  if (!props.stacktrace) {
+    return (<div />);
+  }
+
   let pieces = props.stacktrace.map(function(trace, i) {
     // Stacktraces don't ever change order so we can use the index
     // as a unique ID to prevent the warning: https://fb.me/react-warning-keys
