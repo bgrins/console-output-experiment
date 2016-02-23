@@ -69,6 +69,10 @@ html {
 .console-toolbar-end {
   flex-shrink: 0;
 }
+.console-toolbar button[data-severity].active {
+  /* @TODO: anything but this */
+  background-color: tomato;
+}
 
 /* Console output */
 .output-wrapper {

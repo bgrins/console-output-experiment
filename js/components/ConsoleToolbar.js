@@ -1,36 +1,36 @@
 import React, { Component } from 'react';
-import { messageClear, messagesFilter } from '../actions/AppActions';
+import { messageClear, messagesFilter, messagesSeverityFilter } from '../actions/AppActions';
 import { connect } from 'react-redux';
 
 class ConsoleToolbar extends Component {
   render() {
+    let {filterSeverity, filterText} = this.props;
     let clear = () => {
       this.props.dispatch(messageClear());
     };
-    let severityFilter = () => {
-      // @TODO Add severity filtering
+    let severityFilter = (e) => {
+      let {severity} = e.target.dataset;
+      this.props.dispatch(messagesFilter({ filterSeverity: severity }));
     };
     let search = (e) => {
-      this.props.dispatch(messagesFilter(e.target.value));
+      this.props.dispatch(messagesFilter({ filterText: e.target.value }));
     };
-
 
     return (
       <div className="console-toolbar">
         <div className="console-toolbar-start">
           <button onClick={clear}>Clear</button>
-          <button onClick={severityFilter}>All</button>
-          <button onClick={severityFilter}>Errors</button>
-          <button onClick={severityFilter}>Warnings</button>
-          <button onClick={severityFilter}>Info</button>
-          <button onClick={severityFilter}>Log</button>
+          <button className={!filterSeverity ? "active" : ""} onClick={severityFilter} data-severity="">All</button>
+          <button className={filterSeverity === "error" ? "active" : ""} onClick={severityFilter} data-severity="error">Errors</button>
+          <button className={filterSeverity === "warning" ? "active" : ""} onClick={severityFilter} data-severity="warning">Warnings</button>
+          <button className={filterSeverity === "info" ? "active" : ""} onClick={severityFilter} data-severity="info">Info</button>
+          <button className={filterSeverity === "log" ? "active" : ""} onClick={severityFilter} data-severity="log">Log</button>
         </div>
         <div className="console-toolbar-end">
-          <input onInput={search} value={this.props.filterText} placeholder="Search" /> &nbsp;
+          <input onInput={search} value={filterText} placeholder="Search" /> &nbsp;
           <a href="https://github.com/bgrins/console-output-experiment/">repo</a>
         </div>
       </div>
-
     );
   }
 }

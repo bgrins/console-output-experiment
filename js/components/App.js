@@ -20,7 +20,7 @@ class App extends Component {
     return (
       <div className="hud-console-wrapper">
         <div className="header-wrapper">
-          <ConsoleToolbar filterText={this.props.filterText} />
+          <ConsoleToolbar filterText={this.props.filterText} filterSeverity={this.props.filterSeverity} />
         </div>
         <ConsoleOutput {...this.props} />
         <div className="jsterm-wrapper">
@@ -40,6 +40,7 @@ function select(state) {
   return {
     messages: filteredMessages.messages,
     filterText: state.filters.filterText,
+    filterSeverity: state.filters.filterSeverity,
     numHidden: filteredMessages.numHidden,
   };
 }
