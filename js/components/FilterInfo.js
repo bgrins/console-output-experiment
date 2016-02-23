@@ -1,10 +1,10 @@
 import React, { PropTypes } from "react";
-import { messagesFilter } from '../actions/AppActions';
+import { messagesFilterClear } from '../actions/AppActions';
 import { connect } from 'react-redux';
 
 function FilterInfo(props) {
   let clearFilters = () => {
-    props.dispatch(messagesFilter(""));
+    props.dispatch(messagesFilterClear());
   };
 
   if (props.numHidden > 0) {

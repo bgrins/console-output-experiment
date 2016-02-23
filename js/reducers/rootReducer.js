@@ -12,6 +12,7 @@ const rootReducer = combineReducers({ messages, filters })
 export function getFilteredMessages(state) {
   let numHidden = 0;
   let filterText = state.filters.filterText;
+  let filterSeverity = state.filters.filterSeverity;
 
   let newMessages = state.messages.slice(0).filter(message => {
     // @TODO implement a smarter search
@@ -21,6 +22,12 @@ export function getFilteredMessages(state) {
         return false;
       }
     }
+
+    if (filterSeverity && message.severity !== filterSeverity) {
+      numHidden += message.repeats || 1;
+      return false;
+    }
+
     return true;
   });
 
