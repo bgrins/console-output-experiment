@@ -6,7 +6,7 @@ import FilterInfo from "./FilterInfo";
 class ConsoleOutput extends Component {
   componentWillUpdate() {
     let node = ReactDOM.findDOMNode(this);
-    this.shouldScrollBottom = isScrolledToBottom(node.firstChild, node);
+    this.shouldScrollBottom = isScrolledToBottom(node.lastChild, node);
   }
 
   componentDidUpdate() {
