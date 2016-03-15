@@ -24,6 +24,7 @@
     "babel-preset-stage-2": "^6.0.0",
     "cross-env": "1.0.6",
     "css-loader": "^0.23.0",
+    "enzyme": "^2.1.0",
     "eslint": "^1.4.1",
     "eslint-config-airbnb": "1.0.0",
     "eslint-plugin-react": "^3.3.2",
@@ -34,7 +35,6 @@
     "json-loader": "^0.5.2",
     "mocha": "^2.4.5",
     "object.assign": "^4.0.1",
-    "react-addons-test-utils": "^0.14.7",
     "react-transform-hmr": "^1.0.1",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.6",
@@ -43,7 +43,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha --compilers js:babel-core/register --recursive",
+    "test": "mocha './js/**/*.test.js' --compilers js:babel-core/register --recursive",
     "test:watch": "npm test -- --watch",
     "start": "cross-env NODE_ENV=development node server.dev.js",
     "build": "npm run test && cross-env NODE_ENV=production webpack --config webpack.prod.config.js --progress --colors -p"
