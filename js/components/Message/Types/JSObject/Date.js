@@ -2,6 +2,7 @@ import React, { PropTypes } from "react";
 
 DateComponent.propTypes = {
   message: PropTypes.shape({
+    class: PropTypes.string,
     preview: PropTypes.shape({
       timestamp: PropTypes.number.isRequired
     }).isRequired,
@@ -9,15 +10,26 @@ DateComponent.propTypes = {
 }
 
 function DateComponent(props) {
+  let anchorClass;
+  let anchorText;
+  let dateString;
   const timestamp = props.message.preview.timestamp;
-  const dateString = new Date(timestamp).toISOString();
-  // @TODO handle invalid dates
-  // @TODO Figure out how to open in Variables View
-  // @TODO does this really need the draggable: false attribute?
-  const anchor = <a className="cm-variable" href="#">Date </a>
+
+  if (typeof timestamp === "number") {
+    // @TODO Figure out how to open in Variables View
+    anchorText = props.message.class + " ";
+    anchorClass = "cm-variable"
+    dateString = new Date(timestamp).toISOString();
+  }
+  else {
+    anchorText = new Date(timestamp).toString() + " ";
+  }
+
   return (
     <span className="class-Date">
-      {anchor}
+      <a className={anchorClass} href="#" draggable="false">
+        {anchorText}
+      </a>
       <span className="cm-string-2">
         {dateString}
       </span>
