@@ -1,5 +1,7 @@
 const data = new Map();
 
+// Test Date component
+// @TODO Remove test #5 from browser_webconsole_output_05.js
 data.set("valid date", {
   requestText: "new Date(448156800000)",
   responsePacket: {
@@ -25,7 +27,7 @@ data.set("valid date", {
   },
   consoleOutput: "Date 1984-03-15T00:00:00.000Z"
 });
-
+// @TODO Remove test #6 from browser_webconsole_output_05.js
 data.set("invalid date", {
   requestText: "new Date('test')",
   responsePacket: {
@@ -52,35 +54,6 @@ data.set("invalid date", {
     "type": "evaluationResult"
   },
   consoleOutput: "Invalid Date"
-});
-
-data.set("date prototype", {
-  requestText: "Date.prototype",
-  responsePacket: {
-    "from": "server1.conn0.child1/consoleActor2",
-    "input": "Date.prototype",
-    "result": {
-      "type": "object",
-      "class": "Object",
-      "actor": "server1.conn0.child1/obj30",
-      "extensible": true,
-      "frozen": false,
-      "sealed": false,
-      "ownPropertyLength": 49,
-      "preview": {
-        "kind": "Object",
-        "ownProperties": {},
-        "ownPropertiesLength": 49,
-        "safeGetterValues": {}
-      }
-    },
-    "timestamp": 1458151640597,
-    "exception": null,
-    "helperResult": null,
-    "resultID": 1458151640597,
-    "type": "evaluationResult"
-  },
-  consoleOutput: "Object { , 49 more… }"
 });
 
 export default data;
