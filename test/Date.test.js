@@ -1,8 +1,8 @@
 import React from 'react';
 import expect from 'expect';
 import { shallow } from 'enzyme';
-import Date from '../Date';
-import data from "./data";
+import Date from '../js/components/Message/Types/JSObject/Date';
+import data from "./data/Date.js";
 
 describe('Date', () => {
 
