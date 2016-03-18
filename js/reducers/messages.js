@@ -37,6 +37,7 @@ function getRepeatId(message) {
   let clonedMessage = JSON.parse(JSON.stringify(message));
   delete clonedMessage.timeStamp;
   delete clonedMessage.uniqueID;
+  delete clonedMessage.repeatId;
   return JSON.stringify(clonedMessage);
 }
 
