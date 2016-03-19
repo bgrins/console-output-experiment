@@ -1,6 +1,6 @@
 import { MESSAGE_ADD, MESSAGES_CLEAR } from '../constants/AppConstants';
 
-function messages(state = [], action) {
+export default function messages(state = [], action) {
   Object.freeze(state); // Don't mutate state directly, always use assign()!
   switch (action.type) {
     case MESSAGE_ADD:
@@ -29,7 +29,7 @@ function messages(state = [], action) {
   }
 }
 
-function getRepeatId(message) {
+export function getRepeatId(message) {
   // We could be explicit about what we care about in the repeat ID,
   // or we could just stringify the entire message (sans-timestamp).
   // Choosing this approach for now because it feels like it'd have less
@@ -40,5 +40,3 @@ function getRepeatId(message) {
   delete clonedMessage.repeatId;
   return JSON.stringify(clonedMessage);
 }
-
-export default messages;
