@@ -107,6 +107,8 @@ module.exports = function(options) {
         })
       ];
     },
+    resolve: { fallback: path.join(__dirname, "node_modules") },
+    resolveLoader: { fallback: path.join(__dirname, "node_modules") },
     target: "web", // Make web variables accessible to webpack, e.g. window
     stats: false, // Don't show stats in the console
     progress: true
