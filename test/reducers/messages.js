@@ -51,7 +51,7 @@ describe('Message reducer', () => {
     ).toEqual(2);
   });
 
-  it('should not handle messages with different line numbers as repeats', () => {
+  it('should not handle messages with different locations as repeats', () => {
     const newMessage = Object.assign({}, message, {
       filename: "file:///not-original-file.html",
     });
@@ -92,11 +92,11 @@ describe('Message reducer', () => {
       message: und
     });
 
-    expect(
-      reducer(secondState, {
-        type: constants.MESSAGE_ADD,
-        message: nul
-      }).length
-    ).toEqual(3);
+    const thirdState = reducer(secondState, {
+      type: constants.MESSAGE_ADD,
+      message: nul
+    });
+
+    expect(thirdState.length).toEqual(3);
   });
 });
